@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
 	margin: 0;
-	<--! background: #222; -->
+	background: #222;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-  color: mediumpurple;
+  color: #mediumpurple;
 }
 
 nav a::before {
