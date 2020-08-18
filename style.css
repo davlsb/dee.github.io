@@ -12,7 +12,8 @@ body {
 }
 
 header {
-  background: #ffffff;
+	color: white;
+	background: #ffffff;
 }
 
 header::after {
