@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #mediumpurple;
+  color: #000;
 }
 
 nav a::before {
@@ -71,3 +71,4 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
