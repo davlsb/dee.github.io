@@ -46,7 +46,7 @@ nav li {
 }
 
 nav a {
-  color: #9370db;
+  color: #222;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -60,7 +60,7 @@ nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #444;
+  background-color: #9370db;
 
   position: absolute;
   top: 0;
