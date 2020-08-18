@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
-	background-color: white;
 	margin: 0;
+	background: #222;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
@@ -12,8 +12,7 @@ body {
 }
 
 header {
-	color: white;
-	background: #ffffff;
+  background: #55d6aa;
 }
 
 header::after {
@@ -46,7 +45,7 @@ nav li {
 }
 
 nav a {
-  //color: #444;
+  color: #444;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -60,7 +59,7 @@ nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #ffffff;
+  background-color: #444;
 
   position: absolute;
   top: 0;
