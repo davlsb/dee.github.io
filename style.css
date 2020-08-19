@@ -83,12 +83,12 @@ nav a:hover::before {
   height: 100%;
   width: 160px;
   position: fixed;
+  padding-top: 50px;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #fffff;
   overflow-x: hidden;
-  padding-top: 16px;
 }
 
 /* Style sidebar links */
