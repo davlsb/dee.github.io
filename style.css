@@ -82,7 +82,7 @@ nav a:hover::before {
 .sidebar {
   height: 100%;
   width: 160px;
-  position: relative;
+  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
@@ -220,9 +220,4 @@ img {
   position: relative; 
 }
 
-#sidebar { 
-  width: 190px; 
-  position: fixed; 
-  margin-left: 410px; 
-}
 
