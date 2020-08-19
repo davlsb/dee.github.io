@@ -211,6 +211,7 @@ img {
 @media(max-width:600px) {
   .card {
     display: block;
+	  box-shadow:1px 1px 50px rgba(145, 92, 182, .4);
   }
 }
 
