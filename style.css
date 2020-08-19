@@ -196,7 +196,8 @@ img {
 }
 
 .btn:hover {
-  opacity: 0.8;
+  color: #9370db;
+  text-shadow:1px 1px 10px rgba(145, 92, 182, .4);
 }
 
 @media(max-width:600px) {
