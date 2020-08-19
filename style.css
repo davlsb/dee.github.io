@@ -166,6 +166,8 @@ img {
   grid-gap: 2rem;
   background: #f1f1f1;
   margin-bottom: 2rem;
+  font-size: 1.3rem;
+  font-family: 'Oswald', sans-serif;
 }
 
 .card h3 {
