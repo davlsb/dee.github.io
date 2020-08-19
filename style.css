@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+html {
+  scroll-behavior: smooth;
+ }
+
 body {
 	margin: 0;
 	background: #f9f9f9;
