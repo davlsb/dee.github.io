@@ -185,7 +185,6 @@ img {
 
 .card img {
   height: 400px;
-  box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
 }
 
 .card > div {
@@ -194,7 +193,7 @@ img {
 
 .card:nth-child(even) img {
   order: 2;
-		  box-shadow:1px 1px 50px rgba(145, 92, 182, .4);
+		  box-shadow:1px 1px -50px rgba(145, 92, 182, .4);
 }
 
 
