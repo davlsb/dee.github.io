@@ -215,6 +215,7 @@ img {
 }
 
 #page-wrap { 
+  padding-top: 50px;
   width: 600px; 
   margin: 15px auto; 
   position: relative; 
