@@ -87,6 +87,7 @@ nav a:hover::before {
   width: 160px;
   position: fixed;
   padding-top: 80px;
+	padding-left: 20px;
   z-index: 1;
   top: 0;
   left: 0;
