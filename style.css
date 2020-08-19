@@ -227,7 +227,7 @@ img {
   position: relative; 
 }
 
-projects {
-	font-size: 15px;
+#projects {
+	font-size: 40px;
 	padding: 20px;
 }
