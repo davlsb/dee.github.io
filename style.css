@@ -119,6 +119,7 @@ nav a:hover::before {
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+   visibility: hidden;
 }
 
 * {
@@ -210,6 +211,10 @@ img {
   color: #ffffff;
   opacity 0.8px;
   box-shadow:1px 1px 10px rgba(145, 92, 182, .4);
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 @media(max-width:600px) {
