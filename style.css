@@ -80,7 +80,6 @@ nav a:hover::before {
 }
 
 .sidebar {
-  height: 100%;
   width: 160px;
   position: fixed;
   padding-top: 70px;
