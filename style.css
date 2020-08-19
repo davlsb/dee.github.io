@@ -86,7 +86,7 @@ nav a:hover::before {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 200px;
   position: fixed;
-  padding-top: 160px;
+  padding-top: 200px;
   padding-left: 20px;
   z-index: 1;
   top: 0;
