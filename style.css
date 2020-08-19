@@ -9,11 +9,11 @@ body {
 .top {
 	width: 80%;
 	margin: 15 auto;
+	margin-bottom: 25px;
 }
 
 header {
   background: #ffffff;
-  margin-bottom: 25px;
 }
 
 header::after {
