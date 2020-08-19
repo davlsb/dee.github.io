@@ -12,12 +12,12 @@ body {
 }
 
 .top {
+		position: fixed;
 	width: 80%;
 	margin: 15 auto;
 }
 
 header {
-	position: fixed;
   background: #ffffff;
 }
 
