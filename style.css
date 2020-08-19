@@ -12,7 +12,8 @@ body {
 }
 
 header {
-  background: #222;
+  background: #ffffff;
+  margin-bottom: 25px;
 }
 
 header::after {
