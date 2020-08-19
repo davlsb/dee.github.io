@@ -76,11 +76,11 @@ nav a:hover::before {
 .sidebar {
   height: 100%;
   width: 160px;
-  position: fixed;
+  position: relative;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #fffff;
   overflow-x: hidden;
   padding-top: 16px;
 }
@@ -90,7 +90,7 @@ nav a:hover::before {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #ffffff;
+  color: #222;
   display: block;
 }
 
