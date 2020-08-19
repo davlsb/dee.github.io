@@ -138,6 +138,7 @@ a {
   margin: auto;
   overflow: auto;
   padding: 0 2rem;
+  padding-left: 20px;
 }
 
 .main-header {
