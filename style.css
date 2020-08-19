@@ -197,7 +197,8 @@ img {
 
 .btn:hover {
   color: #9370db;
-  text-shadow:1px 1px 10px rgba(145, 92, 182, .4);
+  opacity 0.8px;
+  box-shadow:1px 1px 10px rgba(145, 92, 182, .4);
 }
 
 @media(max-width:600px) {
