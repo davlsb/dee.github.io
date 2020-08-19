@@ -9,7 +9,6 @@ body {
 .top {
 	width: 80%;
 	margin: 15 auto;
-	margin-bottom: 25px;
 }
 
 header {
@@ -29,6 +28,7 @@ header::after {
 
 nav {
   float: right;
+	margin-bottom: 25px;
 }
 
 nav ul {
@@ -119,11 +119,6 @@ nav a:hover::before {
   box-sizing: border-box;
 }
 
-body {
-  font-size: 1.3rem;
-  font-family: 'Oswald', sans-serif;
-  background: #f9f9f9;
-}
 
 a {
   color: #333;
