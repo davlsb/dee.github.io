@@ -17,6 +17,7 @@ body {
 }
 
 header {
+	position: fixed;
   background: #ffffff;
 }
 
@@ -83,11 +84,10 @@ nav a:hover::before {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 160px;
   position: fixed;
-  padding-top: 70px;
+  padding-top: 80px;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ffffff;
   overflow-x: hidden;
 }
 
