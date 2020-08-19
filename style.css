@@ -178,6 +178,7 @@ img {
 
 .card img {
   height: 400px;
+  box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
 }
 
 .card > div {
