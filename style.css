@@ -289,7 +289,7 @@ position: fixed;
 .navbar {display: none}
 
 
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 1025px) {
 
 #content-desktop {display: none !important;}
 .pagewrap {display: none !important;}
