@@ -138,7 +138,7 @@ a {
 }
 
 .navbar {display: none;}
-.nav {display: none;}
+.bottombar {display: none;}
 
 @media screen and (max-width: 2000px) {
 
@@ -147,7 +147,7 @@ a {
 .sidebar {display: none !important;}
 .topnav {display: none !important;}
 	.navbar {display:block;}
-	.nav {display:block;}
+	.bottombar {display:block;}
 
 }
 
