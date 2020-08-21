@@ -116,12 +116,6 @@ nav a:hover::before {
   padding: 0px 10px;
 }
 
-/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-   visibility: hidden;
-}
 
 * {
   margin: 0;
@@ -212,11 +206,6 @@ img {
   color: #ffffff;
   opacity 0.8px;
   box-shadow:1px 1px 10px rgba(145, 92, 182, .4);
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-   #sidebar {display: none;}
 }
 
 @media(max-width:600px) {
