@@ -138,16 +138,15 @@ a {
 }
 
 .navbar {display: none;}
-.bottombar {display: none;}
 
-@media screen and (max-width: 2000px) {
+
+@media screen and (max-width: 1068px) {
 
 .content-desktop {display: none !important;}
 .pagewrap {display: none !important;}
 .sidebar {display: none !important;}
 .nav {display: none !important;}
 	.navbar {display:block;}
-	.bottombar {display:block;}
 
 }
 
