@@ -139,10 +139,10 @@ a {
 
 @media screen and (max-width: 768px) {
 
-#content-desktop {display: none !important;}
-#pagewrap {display: none !important;}
-#sidebar {display: none !important;}
-	#topnav {display: none !important;}
+.content-desktop {display: none !important;}
+.pagewrap {display: none !important;}
+.sidebar {display: none !important;}
+.topnav {display: none !important;}
 
 }
 
