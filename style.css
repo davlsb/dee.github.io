@@ -137,6 +137,15 @@ a {
   padding-left: 20px;
 }
 
+#content-desktop {display: block;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+
+
+}
+
 .main-header {
   height: 55vh;
   padding: 2rem;
