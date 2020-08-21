@@ -142,11 +142,11 @@ a {
 
 @media screen and (max-width: 1068px) {
 
-.content-desktop {display: none !important;}
+#content-desktop {display: none !important;}
 .pagewrap {display: none !important;}
 .sidebar {display: none !important;}
 .nav {display: none !important;}
-	.navbar {display:block;}
+.navbar {display:block;}
 
 }
 
