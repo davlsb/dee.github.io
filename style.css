@@ -137,12 +137,11 @@ a {
   padding-left: 20px;
 }
 
-#content-desktop {display: block;}
-
 @media screen and (max-width: 768px) {
 
 #content-desktop {display: none;}
-
+#pagewrap {display: none;}
+#sidebar {display: none;}
 
 }
 
