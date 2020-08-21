@@ -263,6 +263,7 @@ position: fixed;
 
 /* Style the links inside the navigation bar */
 .navbar a {
+  z-index: 9999;
   float: left;
   display: block;
   color: #222;
