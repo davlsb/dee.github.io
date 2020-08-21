@@ -137,12 +137,15 @@ a {
   padding-left: 20px;
 }
 
-@media screen and (max-width: 768px) {
+.navbar {display: none;}
+
+@media screen and (max-width: 1026px) {
 
 .content-desktop {display: none !important;}
 .pagewrap {display: none !important;}
 .sidebar {display: none !important;}
 .topnav {display: none !important;}
+	.navbar {display:block;}
 
 }
 
