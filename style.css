@@ -115,7 +115,7 @@ av a:hover {
 #aboutme{
   color:#ffffff;
   font-family: 'Alata', sans-serif;
-  font-size: 2em;
+  font-size: 2.3em;
   padding-top: 150px;
   padding-left: 2em;
   margin:3em;
@@ -133,10 +133,9 @@ av a:hover {
 #info{
   color:#e2e2e2;
   font-family: 'Alata', sans-serif;
-  font-size: large;
   padding-left: 3.7em;
   padding-bottom: 50px;
-  font-size: 1.5em;
+  font-size: 1.6em;
   margin:3em;
 }
 
