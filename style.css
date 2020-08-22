@@ -401,6 +401,7 @@ av a:hover {
   }
 
 #upButton{
+	visibilty:hidden;
   width: 300px;
   height: 200px;
   z-index: 15;
