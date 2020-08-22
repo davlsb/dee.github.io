@@ -141,8 +141,10 @@ av a:hover {
 
 .firstWave{
   background: #b19cd9;
-  margin-top: -150px;
+  margin-top: -50px;
 }
+#secondWave{  margin-top: -50px; }
+	
 
 .firstWave > svg {
   display: block;
