@@ -299,7 +299,11 @@ hr{
 
 
 @media screen and (max-width: 1025px) {
-
+.logo {
+  float: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
 #content-desktop {display: none !important;}
 .pagewrap {display: none !important;}
 .sidebar {display: none !important;}
