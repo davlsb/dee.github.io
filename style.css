@@ -323,3 +323,16 @@ svg {
 }
 
 
+
+
+
+
+
+.wave-container {
+  background: #EEE;
+}
+.wave-container > svg {
+  display: block;
+}
+
+
