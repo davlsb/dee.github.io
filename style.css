@@ -304,6 +304,7 @@ hr{
         text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-right: 15px;
 }
 #content-desktop {display: none !important;}
 .pagewrap {display: none !important;}
