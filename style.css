@@ -1,28 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+
 html {
   scroll-behavior: smooth;
  }
- 
+
+
  body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
 }
 
-.wave-container > svg {
+
+.top {
+width: 100%;
+z-index: 9999;
+  background: #8c00ff81;
+  font-family: 'Work Sans', sans-serif;
+  margin:0;
+}
+header {
+  z-index: 9999;
+    position:fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background: #8c00ffb6;
+    color: #ffffff;
+    font-weight: 900;
+  }
+  
+header::after {
+content: '';
+display: table;
+clear: both;
+}
+
+.logo {
+float: left;
+padding-left: 50px;
+}
+
+.nav {
+  padding-right: 50px;
+  float: right;
+    margin-bottom: 25px;
+    
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 30px;
+
+  position: relative;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+av a:hover {
+  color: #ffffff;
+}
+
+.nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.nav a:hover::before {
+  width: 100%;
+}
+
+.about{
+  background-color: #8E00FF;
+}
+
+.about img{
+  float:right;
+  padding-left:200px;
+  padding-right:150px;
+  padding-top:150px;
+
+}
+
+#aboutme{
+  color:#ffffff;
+  font-family: 'Alata', sans-serif;
+  font-size: 2em;
+  padding-top: 150px;
+  padding-left: 220px;
+}
+
+
+.containerAbout{
+
+  display: flex;
+  margin: auto;
+  overflow: auto;
+}
+
+
+#info{
+  color:#e2e2e2;
+  font-family: 'Alata', sans-serif;
+  font-size: large;
+  padding-left: 220px;
+  padding-bottom: 50px;
+  font-size: 1.5em;
+}
+
+#firstWave > svg {
   display: block;
 }
 
+#projects {
+  padding-top: 0px;
+  color:#222;
+  font-family: 'Alata', sans-serif;
+  font-size: 2em;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #ffffff;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 25px;
+}
+
+.card h3 {
+  margin-bottom: 2rem;
+}
+
+.card img {
+  height: 100%;
+  width:100%;
+}
+
+.card > div {
+  padding: 2rem;
+}
+
+.card:nth-child(even) img {
+  order: 2;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+		  box-shadow:1px 1px -50px rgba(145, 92, 182, .4);
+}
+.card:nth-child(odd) img {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+		  box-shadow:1px 1px -50px rgba(145, 92, 182, .4);
+}
+
+
+
+.btn {
+  display: inline-block;
+  background: #8E00FF;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #ffffff;
+  transition: all ease-in-out 300ms;
+  box-shadow:2px 2px 20px rgba(145, 92, 182, 0.76);
+}
+
+@media(max-width:600px) {
+  .card {
+    display: block;
+	  box-shadow:1px 1px -10px rgba(145, 92, 182, .4);
+  }
+}
+
+.container{
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+  padding-left: 20px;
+
+}
+
+
+#contact{
+  color:#000000;
+  font-family: 'Alata', sans-serif;
+  font-size: 2em;
+  padding-top: 50px;
+}
+
+
+.containerContact{
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+
+
 .wave-container {
-  position: relative;
-  background: #09F;
-  color: #FFF;
-  text-align: center;
-  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-h1 {
-  font-size: 5rem;
-  margin: 7rem 1.25rem 2.5rem 1.25rem;
+.wave-container > svg {
+  display: block;
 }
-p {
-  font-size: 1.5rem;
-  margin: 0 1.25rem 5rem 1.25rem;
+.footer {
+  width: 100%; /* self explanatory */ /*The element is positioned relative to its first positioned (not static) ancestor element*/
+  bottom: 0PX; /*property affects the vertical position of a positioned element*/
 }
