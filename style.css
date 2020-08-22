@@ -329,7 +329,11 @@ svg {
 
 
 .wave-container {
-  background: #EEE;
+position: relative;
+  background: #8f00ff;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
 }
 .wave-container > svg {
   display: block;
