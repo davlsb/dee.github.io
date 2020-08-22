@@ -300,7 +300,7 @@ hr{
 
 @media screen and (max-width: 1025px) {
 .logo {
-  float: center !important;
+        text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
