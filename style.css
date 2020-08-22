@@ -140,6 +140,10 @@ av a:hover {
   margin:3em;
 }
 
+#firstWave{
+  background: #EEE;
+}
+
 #firstWave > svg {
   display: block;
 }
