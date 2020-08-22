@@ -312,13 +312,14 @@ svg {
 }
 
 #info {
+  font-size: 150%;
   float: left;
   width: 70%;
 }
 
 #aboutpics {
-  float: left;
-  width: 30%;
+  float: right;
+  width: 40%;
 }
 
 
