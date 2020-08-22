@@ -14,6 +14,13 @@ html {
   width: 100%;
   height: 100%;
   background: #f1f1f1;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
 
@@ -94,13 +101,14 @@ av a:hover {
 
 .about{
   background-color: #8E00FF;
+  
 }
 
 .about img{
   float:right;
   padding-left:200px;
   padding-right:150px;
-  padding-top:150px;
+  padding-top:250px;
 
 }
 
@@ -109,7 +117,8 @@ av a:hover {
   font-family: 'Alata', sans-serif;
   font-size: 2em;
   padding-top: 150px;
-  padding-left: 220px;
+  padding-left: 2em;
+  margin:3em;
 }
 
 
@@ -125,9 +134,10 @@ av a:hover {
   color:#e2e2e2;
   font-family: 'Alata', sans-serif;
   font-size: large;
-  padding-left: 220px;
+  padding-left: 3.7em;
   padding-bottom: 50px;
   font-size: 1.5em;
+  margin:3em;
 }
 
 #firstWave > svg {
@@ -135,7 +145,7 @@ av a:hover {
 }
 
 #projects {
-  padding-top: 0px;
+  padding-top: 40px;
   color:#222;
   font-family: 'Alata', sans-serif;
   font-size: 2em;
@@ -186,6 +196,7 @@ av a:hover {
   padding: 0.8rem 1.8rem;
   margin-top: 2rem;
   cursor: pointer;
+  font-weight: 800;
   border-radius: 50px;
   text-decoration: none;
 }
@@ -229,7 +240,23 @@ av a:hover {
   padding: 0 2rem;
 }
 
-
+.cardAbout {
+  overflow: hidden;
+  grid-gap: 2rem;
+  background: #ffffff;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 25px;
+}
+.cardAbout h3 {
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+.cardAbout > div {
+  padding: 2rem;
+  overflow: hidden;
+}
 
 .wave-container {
   width: 100%;
@@ -243,3 +270,131 @@ av a:hover {
   width: 100%; /* self explanatory */ /*The element is positioned relative to its first positioned (not static) ancestor element*/
   bottom: 0PX; /*property affects the vertical position of a positioned element*/
 }
+
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  position: fixed;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+      bottom: 0;
+      width: 100%;
+      height: 55px;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+      background-color: #ffffff;
+      display: flex;
+      overflow-x: auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    z-index: 9999;
+    float: left;
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.1em;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #8E00FF;
+    color: #ffffff;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+   display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      min-width: 50px;
+      overflow: hidden;
+      white-space: nowrap;
+      font-size: 1.3em;
+      color: #8E00FF;
+      text-decoration: none;
+      -webkit-tap-highlight-color: transparent;
+      transition: background-color 0.5s ease-in-out;
+      margin:0;
+  }
+
+
+.navbar {display: none}
+
+@media screen and (max-width: 1025px) {
+  .logo {
+          text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .about img{
+    display: none;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:0px;
+    float: none;
+  }
+
+  #aboutme{
+    color:#ffffff;
+    font-family: 'Alata', sans-serif;
+    font-size: 2em;
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  
+  
+  .containerAbout{
+  
+    display: flex;
+    margin: auto;
+    overflow: auto;
+  }
+  
+  
+  #info{
+    color:#e2e2e2;
+    font-family: 'Alata', sans-serif;
+    font-size: large;
+    padding-left: 0px;
+    margin:1em;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+  }
+  
+  #projects { padding-top: 70px;}
+  #contact { padding-top: 70px;}
+  #content-desktop {display: none !important;}
+  .pagewrap {display: none !important;}
+  .sidebar {display: none !important;}
+  .nav {display: none !important;}
+  nav {display: none !important;}
+
+  .navbar {display:block;}
+  .container {
+    max-width: 1100px;
+    margin: 1em;
+    overflow: auto;
+    padding: 0 2rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .card:nth-child(even) img {
+      order: 2;
+      border-top-right-radius: 25px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 0px;
+
+    }
+    .card:nth-child(odd) img {
+      border-top-right-radius: 25px;
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 0px;
+    }
+  footer {display: none;}
+  }
+
