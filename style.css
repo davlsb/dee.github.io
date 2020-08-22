@@ -401,8 +401,10 @@ av a:hover {
   }
 
 #upButton{
+	margin-left: auto;
+  margin-right: auto;
   margin: auto;
-  width: 50%;
+  width: 100%;
   padding: 10px;
   font-family: 'Work Sans', sans-serif;
 }
