@@ -22,7 +22,7 @@ body {
 header {
 	z-index: 9999;
 		position:fixed
-			  background: #ffffff;
+			  background: #8E00FF;
 }
 
 header::after {
@@ -330,7 +330,7 @@ svg {
 
 .wave-container {
 position: relative;
-  background: ##8E00FF;
+  background: #8E00FF;
   color: #FFF;
   text-align: center;
   overflow: hidden;
