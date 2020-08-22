@@ -330,10 +330,12 @@ svg {
 
 .wave-container {
 position: relative;
-  background: #8E00FF;
+  background: #fff;
   color: #FFF;
   text-align: center;
   overflow: hidden;
+	margin: 0;
+  padding: 0;
 }
 .wave-container > svg {
   display: block;
