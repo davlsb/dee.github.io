@@ -305,4 +305,20 @@ svg {
   z-index: 0;
 }
 
+.about:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#info {
+  float: left;
+  width: 70%;
+}
+
+#aboutpics {
+  float: left;
+  width: 30%;
+}
+
 
