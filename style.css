@@ -10,7 +10,6 @@ body {
 	background: #f9f9f9;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
-	--col-deepblue: #4478e3;
 	z-index: 2;
 }
 
@@ -23,7 +22,6 @@ body {
 header {
 	z-index: 9999;
 		position:fixed
-  background: #ffffff;
 }
 
 header::after {
