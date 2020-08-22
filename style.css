@@ -400,3 +400,9 @@ av a:hover {
   footer {display: none;}
   }
 
+#upButton{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
