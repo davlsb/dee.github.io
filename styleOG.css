@@ -22,7 +22,7 @@ body {
 
 header {
 	z-index: 9999;
-		position:fixed
+		position:fixed;
 			  background: #8E00FF;
 }
 
