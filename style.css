@@ -310,6 +310,7 @@ hr{
 .pagewrap {display: none !important;}
 .sidebar {display: none !important;}
 .nav {display: none !important;}
+nav {display: none !important;}
 .navbar {display:block;}
 .container {
   max-width: 1100px;
