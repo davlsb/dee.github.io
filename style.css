@@ -141,9 +141,9 @@ av a:hover {
 
 .firstWave{
   background: #b19cd9;
-  margin-top: -50px;
+  margin-top: -20px;
 }
-#secondWave{  margin-top: -50px; }
+#secondWave{  margin-top: -20px; }
 	
 
 .firstWave > svg {
@@ -404,7 +404,7 @@ av a:hover {
   }
 
 #upButton{
-	visibilty:hidden;
+  display:none;
   width: 300px;
   height: 200px;
   z-index: 15;
