@@ -140,11 +140,11 @@ av a:hover {
   margin:3em;
 }
 
-#firstWave{
+.firstWave{
   background: #EEE;
 }
 
-#firstWave > svg {
+.firstWave > svg {
   display: block;
 }
 
