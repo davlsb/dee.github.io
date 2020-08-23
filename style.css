@@ -393,7 +393,7 @@ av a:hover {
     padding-left: 0px;
   }
   
-  
+   header{     position:absolute; }
   .containerAbout{
   
     display: flex;
