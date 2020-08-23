@@ -139,19 +139,19 @@ av a:hover {
   margin:3em;
 }
 
+.firstWave{
+  background: #b19cd9;
+  position:relative;
+}
+
 #secondWave {
-  height: 100px;
-  width: 100%;
+    height: 100px;
+    width: 100%;
     position:absolute;
     left: 20;
     top: 800px;
     z-index: -1;
 }
-
-.firstWave{
-  background: #b19cd9;
-}
-	
 
 .firstWave > svg {
   display: block;
