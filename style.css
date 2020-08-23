@@ -654,6 +654,6 @@ av a:hover {
 	.card {color: #ffffff;
 	background: #1b262c; }
 	.cardAbout { background: #1b262c; }
-	.navbar { background: #1b262c; }
+	.navbar { background: #000000; }
 	.navbar a{ color: #ffffff;}
 }
