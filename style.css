@@ -646,3 +646,7 @@ av a:hover {
       .containerContact{  max-width: 1700px;}
 
 }
+
+@media (prefers-color-scheme: dark) {
+	body {background:#333333;}
+}
