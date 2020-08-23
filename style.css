@@ -444,13 +444,15 @@ av a:hover {
       order: 2;
       border-top-right-radius: 25px;
       border-top-left-radius: 25px;
-      border-bottom-right-radius: 0px;
+      border-bottom-right-radius: 25px;
+      border-bottom-left-radius: 25px;
 
     }
     .card:nth-child(odd) img {
       border-top-right-radius: 25px;
       border-top-left-radius: 25px;
-      border-bottom-left-radius: 0px;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
     }
   footer {display: none;}
   }
