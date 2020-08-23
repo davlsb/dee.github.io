@@ -141,17 +141,8 @@ av a:hover {
 
 .firstWave{
   background: #b19cd9;
-  position:relative;
 }
 
-#secondWave {
-    height: 100px;
-    width: 100%;
-    position:absolute;
-    left: 20;
-    top: 800px;
-    z-index: -1;
-}
 
 .firstWave > svg {
   display: block;
