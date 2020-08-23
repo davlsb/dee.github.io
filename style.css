@@ -272,8 +272,8 @@ av a:hover {
     border-radius: 100px;
   }
 
-  .fa-twitter {
-    background: #55ACEE;
+  .fa-linkedin {
+    background: #0967af;
     color: white;
   }
   .fa-github {
@@ -285,10 +285,10 @@ av a:hover {
     color: white;
   }
 
-.fa-twitter:hover {
+.fa-linkedin:hover {
     opacity: 0.7;
     transition: all ease-in-out 300ms;
-    box-shadow:2px 2px 20px rgba(34, 218, 231, 0.76);
+    box-shadow:2px 2px 20px rgba(34, 126, 231, 0.76);
 }
 .fa-github:hover {
   opacity: 0.7;
