@@ -420,6 +420,13 @@ av a:hover {
   .nav {display: none !important;}
   nav {display: none !important;}
 
+	.card {
+  box-shadow: 0.1em 0.1em 0.1em #4a01862c;
+}
+	.cardAbout {
+  box-shadow: 0.1em 0.1em 0.1em #4a01862c;
+}
+	
   .navbar {display:block;}
   .container {
     max-width: 1100px;
