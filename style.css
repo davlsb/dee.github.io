@@ -139,6 +139,15 @@ av a:hover {
   margin:3em;
 }
 
+.secondWave {
+  height: 100px;
+  width: 100%;
+    position:absolute;
+    left: 20;
+    top: 700px;
+    z-index: -1;
+}
+
 .firstWave{
   background: #b19cd9;
 }
