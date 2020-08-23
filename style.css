@@ -229,7 +229,7 @@ av a:hover {
 
 
 #contact{
-  color:#000000;
+  color:#222;
   font-family: 'Alata', sans-serif;
   font-size: 2em;
   padding-top: 50px;
@@ -649,4 +649,6 @@ av a:hover {
 
 @media (prefers-color-scheme: dark) {
 	body {background:#333333;}
+        #projects { color: #ffffff; }
+	#contact { color: #ffffff; }
 }
