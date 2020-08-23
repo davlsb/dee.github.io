@@ -163,6 +163,7 @@ av a:hover {
   font-size: 1.3rem;
   font-family: 'Oswald', sans-serif;
   border-radius: 25px;
+  box-shadow: 0.5em 0.5em 0.5em #4a01862c;
 }
 
 .card h3 {
@@ -251,6 +252,7 @@ av a:hover {
   font-size: 1.3rem;
   font-family: 'Oswald', sans-serif;
   border-radius: 25px;
+  box-shadow: 0.5em 0.5em 0.5em #4a01862c;
 }
 .cardAbout h3 {
   margin-bottom: 2rem;
