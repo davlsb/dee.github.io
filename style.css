@@ -648,7 +648,10 @@ av a:hover {
 }
 
 @media (prefers-color-scheme: dark) {
-	body {background:#333333;}
+	body {background:##121212;}
         #projects { color: #ffffff; }
 	#contact { color: #ffffff; }
+	.card {color: #ffffff;
+	background: #1b262c; }
+	.cardAbout { background: #1b262c; }
 }
