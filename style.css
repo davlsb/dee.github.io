@@ -148,6 +148,8 @@ av a:hover {
   display: block;
 }
 
+#projectsMark{ margin: 0.2em;}
+
 #projects {
   color:#222;
   font-family: 'Alata', sans-serif;
