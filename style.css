@@ -150,6 +150,8 @@ av a:hover {
 
 #projectsMark{ margin: 0.2em;}
 
+#extraSpace {margin: 2em; }
+
 #projects {
   color:#222;
   font-family: 'Alata', sans-serif;
