@@ -247,7 +247,7 @@ av a:hover {
 .cardAbout {
   color:#000000;
   font-size: 2em;
-  padding-top: 20px;
+  padding-top: 5px;
   overflow: hidden;
   grid-gap: 2rem;
   background: #ffffff;
