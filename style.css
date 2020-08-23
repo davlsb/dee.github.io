@@ -139,7 +139,7 @@ av a:hover {
   margin:3em;
 }
 
-.secondWave {
+#secondWave {
   height: 100px;
   width: 100%;
     position:absolute;
