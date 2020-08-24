@@ -19,7 +19,7 @@
       "short_name": "Blue",
       "url": "/blue?shortcut",
       "icons": [
-        { "src": "/assets/blue.png", "sizes": "192x192", "type": "image/png" }
+        { "src": "/Assets/blue.png", "sizes": "192x192", "type": "image/png" }
       ]
     },
     {
@@ -27,7 +27,7 @@
       "short_name": "Red",
       "url": "/red?shortcut",
       "icons": [
-        { "src": "/assets/red.png", "sizes": "192x192", "type": "image/png" }
+        { "src": "/Assets/red.png", "sizes": "192x192", "type": "image/png" }
       ]
     },
     {
@@ -35,7 +35,7 @@
       "short_name": "Yellow",
       "url": "/yellow?shortcut",
       "icons": [
-        { "src": "/assets/yellow.png", "sizes": "192x192", "type": "image/png" }
+        { "src": "/Assets/yellow.png", "sizes": "192x192", "type": "image/png" }
       ]
     },
     {
@@ -43,7 +43,7 @@
       "short_name": "Green",
       "url": "/green?shortcut",
       "icons": [
-        { "src": "/assets/green.png", "sizes": "192x192", "type": "image/png" }
+        { "src": "/Assets/green.png", "sizes": "192x192", "type": "image/png" }
       ]
     }
     ]
