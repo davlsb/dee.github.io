@@ -30,7 +30,7 @@
             "url": "/index.html#aboutMe",
             "icons": [
                 {
-                    "src": "aboutShortcut.png",
+                    "src": "/images/Assets/aboutShortcut.png",
                     "sizes": "192x192",
                     "type": "image/png"
                 }
@@ -42,7 +42,7 @@
             "url": "/index.html#projectsMark",
             "icons": [
                 {
-                    "src": "projectShortcut.png",
+                    "src": "/images/Assets/projectShortcut.png",
                     "sizes": "192x192",
                     "type": "image/png"
                 }
@@ -54,7 +54,7 @@
             "url": "/index.html#contact",
             "icons": [
                 {
-                    "src": "contactShortcut.png",
+                    "src": "/images/Assets/contactShortcut.png",
                     "sizes": "192x192",
                     "type": "image/png"
                 }
