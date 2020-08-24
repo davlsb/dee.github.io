@@ -153,9 +153,10 @@ av a:hover {
   display: block;
 }
 
+#secondWave{ margin-bottom: 15rem; }
+
 #projectsMark{ margin: 0.2em;}
 
-#extraSpace {margin: 4em; }
 
 #projects {
   color:#222;
