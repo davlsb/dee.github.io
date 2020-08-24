@@ -20,7 +20,7 @@
         }
     ],
     "theme_color": "#8E00FF",
-    "background_color": "#ffffff",
+    "background_color": "#8E00FF",
     "start_url": "https://deedev.dev/",
     "display": "standalone",
     "shortcuts": [
