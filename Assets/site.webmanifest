@@ -15,35 +15,27 @@
 "display":"standalone",
 "shortcuts": [
     {
-      "name": "Feel blue",
-      "short_name": "Blue",
-      "url": "/blue?shortcut",
+      "name": "About Me",
+      "short_name": "About",
+      "url": "/index.html#aboutMe",
       "icons": [
-        { "src": "blue.png", "sizes": "192x192", "type": "image/png" }
+        { "src": "aboutShortcut.png", "sizes": "192x192", "type": "image/png" }
       ]
     },
     {
-      "name": "Feel red",
-      "short_name": "Red",
-      "url": "/red?shortcut",
+      "name": "Projects",
+      "short_name": "Projects",
+      "url": "/index.html#projectsMark",
       "icons": [
-        { "src": "red.png", "sizes": "192x192", "type": "image/png" }
+        { "src": "projectShortcut.png", "sizes": "192x192", "type": "image/png" }
       ]
     },
     {
-      "name": "Feel yellow",
-      "short_name": "Yellow",
-      "url": "/yellow?shortcut",
+      "name": "Contact",
+      "short_name": "Contact",
+      "url": "/index.html#contact",
       "icons": [
-        { "src": "yellow.png", "sizes": "192x192", "type": "image/png" }
-      ]
-    },
-    {
-      "name": "Feel green",
-      "short_name": "Green",
-      "url": "/green?shortcut",
-      "icons": [
-        { "src": "green.png", "sizes": "192x192", "type": "image/png" }
+        { "src": "contactShortcut.png", "sizes": "192x192", "type": "image/png" }
       ]
     }
     ]
