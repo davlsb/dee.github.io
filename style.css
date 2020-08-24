@@ -393,6 +393,7 @@ av a:hover {
   .about{
     background: linear-gradient(180deg,#b933f9,#8E00FF,#8E00FF);
   }
+	
   .top{ background: #ff3d7700}
     
   .logo {
@@ -416,7 +417,7 @@ av a:hover {
     color:#ffffff;
     font-family: 'Alata', sans-serif;
     font-size: 2em;
-    padding-top: 30px;
+    padding-top: 3em;
     padding-left: 0px;
     margin:1em;
   }
