@@ -153,7 +153,7 @@ av a:hover {
   display: block;
 }
 
-#secondWave{ margin-bottom: -8rem; }
+#secondWave{ margin-bottom: -4rem; }
 
 #projectsMark{ margin: 0.2em;}
 
@@ -163,7 +163,6 @@ av a:hover {
   font-family: 'Alata', sans-serif;
   font-size: 2em;
   padding-top: -200px;
-  margin: 4em;
 }
 
 .card {
