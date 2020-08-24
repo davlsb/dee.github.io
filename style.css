@@ -389,10 +389,11 @@ av a:hover {
   .logo {
     text-align: center;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 15px;  
+    float:none;
+    padding-left:-20px;
 }
 
-  }
   .about img{
     display: none;
     padding-left:0px;
