@@ -174,7 +174,6 @@ av a:hover {
   font-family: 'Alata', sans-serif;
   border-radius: 25px;
   box-shadow: 0.5em 0.5em 1em #4d4d4d27;
-	object-fit: cover;
 }
 
 .card h3 {
@@ -184,6 +183,7 @@ av a:hover {
 .card img {
   height: 100%;
   width:100%;
+  object-fit: cover;
 }
 
 .card > div {
@@ -671,6 +671,3 @@ av a:hover {
 	.navbar a{ color: #ffffff;}
 }
 
-.lazyload{
-	   object-fit: cover;
-}
