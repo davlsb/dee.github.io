@@ -670,3 +670,7 @@ av a:hover {
 	.navbar { background: #000000; }
 	.navbar a{ color: #ffffff;}
 }
+
+.lazyload{
+	   object-fit: cover;
+}
