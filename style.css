@@ -387,10 +387,9 @@ av a:hover {
 
 @media screen and (max-width: 1025px) {
   .logo {
-          text-align: center;
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    float: none;
 }
 
   }
