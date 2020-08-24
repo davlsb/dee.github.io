@@ -18,6 +18,11 @@ html {
   scrollbar-width: none;
 }
 
+@font-face {
+  font-family: 'Alata', sans-serif;
+  font-display: fallback; /* Define how the browser behaves during download */
+}
+
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
