@@ -19,6 +19,7 @@ html {
 }
 
 @font-face {
+  src: "https://fonts.googleapis.com/css?family=Alata&display=swap";
   font-family: 'Alata', sans-serif;
   font-display: fallback; /* Define how the browser behaves during download */
 }
@@ -472,19 +473,6 @@ av a:hover {
     }
   footer {display: none;}
   }
-
-#upButton{
-  display:none;
-  width: 300px;
-  height: 200px;
-  z-index: 15;
-  top: 50%;
-  left: 50%;
-	weight:900;
-  padding: 10px;
-  font-family: 'Work Sans', sans-serif;
-}
-
 
 
 @media screen and (min-width: 1600px) {
