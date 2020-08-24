@@ -145,12 +145,11 @@
    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
    <script src="script.js" defer></script>
    <script src="lazysizes.min.js" async=""></script>
-    <script>
-         if (!navigator.serviceWorker.controller) {
-         navigator.serviceWorker.register("/sw.js").then(function(reg) {
-         console.log("Service worker has been registered for scope: " + reg.scope);
-         });
-     }
+    <script type="module">
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
     </script>
 
 <footer>
