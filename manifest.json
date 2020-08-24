@@ -1,0 +1,68 @@
+{
+    "name": "Dee",
+    "short_name": "Dee",
+    "icons": [
+        {
+            "src": "/images/Assets/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/Assets/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/Assets/maskable_icon.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#8E00FF",
+    "background_color": "#ffffff",
+    "start_url": "https://deedev.dev/",
+    "display": "standalone",
+    "shortcuts": [
+        {
+            "name": "About Me",
+            "short_name": "About",
+            "url": "/index.html#aboutMe",
+            "icons": [
+                {
+                    "src": "aboutShortcut.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Projects",
+            "short_name": "Projects",
+            "url": "/index.html#projectsMark",
+            "icons": [
+                {
+                    "src": "projectShortcut.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Contact",
+            "short_name": "Contact",
+            "url": "/index.html#contact",
+            "icons": [
+                {
+                    "src": "contactShortcut.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "url": "https://deedev.dev",
+    "lang": "",
+    "screenshots": [],
+    "orientation": "portrait"
+}
