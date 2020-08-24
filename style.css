@@ -105,7 +105,7 @@ av a:hover {
 }
 
 .about{
-  background-color: #8E00FF;
+  background: linear-gradient(180deg,#8E00FF,#8c00ffd0,#8E00FF);
   
 }
 
