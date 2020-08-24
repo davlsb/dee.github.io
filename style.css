@@ -106,7 +106,7 @@ av a:hover {
 }
 
 .about{
-  background: linear-gradient(180deg,#8E00FF,#8c00ffd0,#8E00FF);
+  background:#8E00FF;
   
 }
 
@@ -389,6 +389,12 @@ av a:hover {
 .navbar {display: none}
 
 @media screen and (max-width: 1025px) {
+	
+  .about{
+    background: linear-gradient(180deg,#ff3d77,#b933f9,#8E00FF);
+  }
+  .top{ background: #ff3d7700}
+    
   .logo {
     text-align: center;
     padding-top: 15px;
