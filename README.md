@@ -1,9 +1,10 @@
 <h1>Dee</h1>
 
-<p>u thot.</p>
+<p>A simple portfolio website</p>
 
 <ol>
-  <li>Number one on the list</li>
-  <li>Number two</li>
-  <li>A third item</li>
+  <li>Using HTML, CSS, and Javascript</li>
+  <li>Optimized per Web.dev</li>
+  <li>A PWA with a Service Worker, maskable (adaptive) icons, and shortcuts</li>
+  <li>Web content optimizations for system theme compatibllity </li> 
 </ol>
