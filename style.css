@@ -420,7 +420,9 @@ av a:hover {
     padding-left: 0px;
   }
   
-   header{     position:absolute; }
+   header{     
+background: #9c41e600;
+position:absolute; }
   .containerAbout{
   
     display: flex;
