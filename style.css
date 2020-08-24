@@ -485,66 +485,6 @@ av a:hover {
   font-family: 'Work Sans', sans-serif;
 }
 
-@media screen and (min-width: 1800px) {
-
-  .about img{
-    float:right;
-    padding-left:200px;
-    padding-right:150px;
-    padding-top:250px;
-  
-  }
-  
-  #aboutme{
-    color:#ffffff;
-    font-family: 'Alata', sans-serif;
-    font-size: 2em;
-    padding-top: 150px;
-    padding-left: 2em;
-    margin:3em;
-  }
-  
-
-  #info{
-    color:#e2e2e2;
-    font-family: 'Alata', sans-serif;
-    font-size: large;
-    padding-left: 4em;
-    padding-bottom: 50px;
-    font-size: 3em;
-    margin:5em;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  . .about img{
-    float:right;
-    padding-left:200px;
-    padding-right:150px;
-    padding-top:250px;
-  
-  }
-  
-  #aboutme{
-    color:#ffffff;
-    font-family: 'Alata', sans-serif;
-    font-size: 2em;
-    padding-top: 150px;
-    padding-left: 2em;
-    margin:3em;
-  }
-  
-
-  #info{
-    color:#e2e2e2;
-    font-family: 'Alata', sans-serif;
-    font-size: large;
-    padding-left: 3em;
-    padding-bottom: 50px;
-    font-size: 1.8em;
-    margin:3em;
-  }
-}
 
 
 @media screen and (min-width: 1600px) {
