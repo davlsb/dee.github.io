@@ -40,7 +40,13 @@
 
     <main class="containerAbout">
 <section class="about">
-    <div id="aboutpics" data-aos="fade-up"> <img src="Assets/FinalBubble.webp" loading="lazy" alt="pic" width="400" height="500"/> </div>
+    <div id="aboutpics" data-aos="fade-up"> 
+	  <picture>
+  <source srcset="Assets/optimizedBubbles.webp" type="image/webp">
+  <source srcset="Assets/optimizedBubbles.jpeg" type="image/jpeg">
+  <img src="Assets/optimizedBubbles.jpeg" loading="lazy" class="lazyload" alt="Bubbles">
+</picture>
+	</div>
     <div id="aboutme" data-aos="fade-right"> <h2>Hi, I'm Dee </h2> </div>
        
      <div id="info"  data-aos="fade-right">
