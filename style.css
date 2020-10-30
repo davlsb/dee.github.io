@@ -674,8 +674,8 @@ position:absolute; }
     background: gray;
     color: white;
     font-family: 'Alata', sans-serif;
-    padding: 20px;
-    font-size: 30px;
+    padding: 0.8em;
+    font-size: 0.7em;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -683,10 +683,6 @@ position:absolute; }
     border-color: transparent;
 }
 
-.open-button:hover {
-    opacity: 0.7;
-    transition: all ease-in-out 300ms;
-    box-shadow:2px 2px 20px rgba(76, 77, 79, 0.76);
 
 /* The popup form - hidden by default */
 .form-popup {
