@@ -269,7 +269,11 @@ av a:hover {
   padding-top: 50px;
 }
 
-#forms{
+#contact > .contactTitle {
+  font-size: 2em;
+}
+
+#contactText{
   font-size: 1.3em;
 }
 
