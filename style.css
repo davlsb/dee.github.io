@@ -698,7 +698,6 @@ position:absolute; }
 /* The popup form - hidden by default */
 .form-popup {
   display: none;
-  border-radius: 20px;
   position: fixed;
   bottom: 0;
   right: 15px;
@@ -708,6 +707,7 @@ position:absolute; }
 
 /* Add styles to the form container */
 .form-container {
+  font-family: 'Alata', sans-serif;
   border-radius: 20px;
   max-width: 300px;
   padding: 10px;
