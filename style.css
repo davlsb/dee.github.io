@@ -663,6 +663,11 @@ position:absolute; }
 	.navbar { background: #000000; }
 	.navbar a{ color: #ffffff;}
 	#contactText {color: #ffffff;}
+	.form-container {
+	color: #ffffff;
+	background: #1b262c; }
+	label { background-color: #1b262c;
+         color: white; }
 }
 
 /* The progress container (grey background) */
