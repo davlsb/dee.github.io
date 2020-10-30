@@ -776,8 +776,7 @@ label {
   background-color: white;
   color: gray;
   padding: 0 0.3rem;
- padding
-  margin: 0 0.5rem;
+  margin: 0 1rem;
   transition: .1s ease-out;
   transform-origin: left top;
   pointer-events: none;
