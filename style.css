@@ -702,7 +702,6 @@ position:absolute; }
   position: fixed;
   bottom: 0;
   right: 15px;
-  border: 0px solid #f1f1f1;
   z-index: 9;
 }
 
@@ -713,7 +712,8 @@ position:absolute; }
   max-width: 300px;
   padding: 10px;
   background-color: white;
-  box-shadow: 0.5em 0.5em 1em #4d4d4d27;
+  border: 0.2px solid #4d4d4d27;
+  box-shadow: 1em 1em 1em #4d4d4d27;
 }
 
 /* Full-width input fields */
