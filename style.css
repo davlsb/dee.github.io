@@ -269,6 +269,10 @@ av a:hover {
   padding-top: 50px;
 }
 
+#forms{
+  font-size: 1.3em;
+}
+
 
 .containerContact{
   max-width: 1100px;
