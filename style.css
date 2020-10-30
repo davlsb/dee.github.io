@@ -724,7 +724,7 @@ position:absolute; }
 }
 
 /* When the inputs get focus, do something */
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+.form-container input[type=text]:focus, .form-container input[type=text]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -745,7 +745,7 @@ position:absolute; }
 /* Add a red background color to the cancel button */
 .form-container .cancel {
  border-radius: 100px;
-  background-color: red;
+  background-color: gray;
 }
 
 /* Add some hover effects to buttons */
