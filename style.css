@@ -662,6 +662,7 @@ position:absolute; }
 	.cardAbout { background: #1b262c; }
 	.navbar { background: #000000; }
 	.navbar a{ color: #ffffff;}
+	#contactText {color: #ffffff;}
 }
 
 /* The progress container (grey background) */
