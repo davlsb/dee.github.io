@@ -713,7 +713,7 @@ position:absolute; }
   max-width: 300px;
   padding: 10px;
   background-color: white;
-  box-shadow: 0.1em 0.1em 0.1em #4a01862c;
+  box-shadow: 0.5em 0.5em 1em #4d4d4d27;
 }
 
 /* Full-width input fields */
