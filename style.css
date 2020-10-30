@@ -710,7 +710,8 @@ position:absolute; }
   font-family: 'Alata', sans-serif;
   border-radius: 20px;
   max-width: 300px;
-  padding: 1.5em;
+  padding: 2em;
+  padding-bottom: 4em;
   background-color: white;
   border: 0.2px solid #4d4d4d27;
   box-shadow: 0em 0em 20em 20em #4d4d4d63;
