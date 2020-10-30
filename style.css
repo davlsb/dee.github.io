@@ -271,6 +271,7 @@ av a:hover {
 
 #contact > .contactTitle {
   font-size: 2em;
+  margin: 1em;
 }
 
 #contactText{
