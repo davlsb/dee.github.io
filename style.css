@@ -710,10 +710,15 @@ position:absolute; }
   font-family: 'Alata', sans-serif;
   border-radius: 20px;
   max-width: 300px;
-  padding: 10px;
+  padding: 1.5em;
   background-color: white;
   border: 0.2px solid #4d4d4d27;
   box-shadow: 0em 0em 1.5em 14px #4d4d4d27;
+	
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 /* Full-width input fields */
