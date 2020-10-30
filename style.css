@@ -701,7 +701,7 @@ position:absolute; }
   position: fixed;
   bottom: 0;
   right: 15px;
-  border: 3px solid #f1f1f1;
+  border: 0px solid #f1f1f1;
   z-index: 9;
 }
 
@@ -712,6 +712,7 @@ position:absolute; }
   max-width: 300px;
   padding: 10px;
   background-color: white;
+  box-shadow: 0.1em 0.1em 0.1em #4a01862c;
 }
 
 /* Full-width input fields */
@@ -731,7 +732,7 @@ position:absolute; }
 
 /* Set a style for the submit/login button */
 .form-container .btn {
-  background-color: #4CAF50;
+  background-color: #8E00FF;
   color: white;
   border-radius: 100px;
   padding: 16px 20px;
