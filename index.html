@@ -156,13 +156,16 @@
 	   
 	   <div class="form-popup" id="myForm">
   <form action="/action_page.php" class="form-container">
-    <h1>Login</h1>
+    <h1>Contact Form</h1>
+	  
+	  <div class="container">
+    <div class="material-textfield">
+      <input placeholder=" " type="text" name="email" required>
+      <label for="email">Enter Email</label>
 
     <label for="psw"><b>Full Name</b></label>
     <input type="text" placeholder="Enter Name" name="psw" required>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
 
     <button type="submit" class="btn">Send</button>
     <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
