@@ -265,13 +265,11 @@ av a:hover {
 #contact{
   color:#222;
   font-family: 'Alata', sans-serif;
-  font-size: 2em;
   padding-top: 50px;
 }
 
 #contact > .contactTitle {
-  font-size: 2em;
-  margin: 1em;
+  font-size: 3em;
 }
 
 #contactText{
