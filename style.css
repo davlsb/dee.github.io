@@ -794,7 +794,7 @@ label {
 	background: #1b262c; }
 	label { background-color: #1b262c;
         color: white; }
-	input { #1b262c;
+	input { background-color: #1b262c;
 	border: 1px solid white;
  	border-radius: 5px; }
 	.form-container input:focus + label { color: white; }
