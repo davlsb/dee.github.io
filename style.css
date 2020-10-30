@@ -713,7 +713,7 @@ position:absolute; }
   padding: 1.5em;
   background-color: white;
   border: 0.2px solid #4d4d4d27;
-  box-shadow: 0em 0em 1.5em 14px #4d4d4d27;
+  box-shadow: 0em 0em 20em 20em #4d4d4d63;
 	
 position: fixed;
 top: 50%;
