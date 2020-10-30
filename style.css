@@ -673,13 +673,14 @@ position:absolute; }
 .open-button {
     background: gray;
     color: white;
+    font-family: 'Alata', sans-serif;
     padding: 20px;
     font-size: 30px;
-    width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 100px;
+    border-color: transparent;
 }
 
 /* The popup form - hidden by default */
