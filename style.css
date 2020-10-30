@@ -683,6 +683,7 @@ position:absolute; }
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
   background-color: #555;
+  border-radius: 100px;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -697,6 +698,7 @@ position:absolute; }
 /* The popup form - hidden by default */
 .form-popup {
   display: none;
+  border-radius: 20px;
   position: fixed;
   bottom: 0;
   right: 15px;
@@ -730,6 +732,7 @@ position:absolute; }
 .form-container .btn {
   background-color: #4CAF50;
   color: white;
+  border-radius: 100px;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
@@ -740,6 +743,7 @@ position:absolute; }
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
+ border-radius: 100px;
   background-color: red;
 }
 
