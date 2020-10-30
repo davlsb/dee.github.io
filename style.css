@@ -793,7 +793,11 @@ label {
 	color: white;
 	background: #1b262c; }
 	label { background-color: #1b262c;
-         color: white; }
+        color: white; }
+	input { #1b262c;
+	border: 1px solid white;
+ 	border-radius: 5px; }
+	.form-container input:focus + label { color: white; }
 }
 
 
