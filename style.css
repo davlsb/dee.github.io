@@ -664,6 +664,7 @@ position:absolute; }
 	.navbar a{ color: #ffffff;}
 	#contactText {color: #ffffff;}
 	.form-container {
+	background-color: #1b262c;
 	color: #ffffff;
 	background: #1b262c; }
 	label { background-color: #1b262c;
