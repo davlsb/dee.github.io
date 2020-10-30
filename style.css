@@ -653,24 +653,6 @@ position:absolute; }
 
 }
 
-@media (prefers-color-scheme: dark) {
-	body {background:#121212;}
-        #projects { color: #ffffff; }
-	#contact { color: #ffffff; }
-	.card {color: #ffffff;
-	background: #1b262c; }
-	.cardAbout { background: #1b262c; }
-	.navbar { background: #000000; }
-	.navbar a{ color: #ffffff;}
-	#contactText {color: #ffffff;}
-	.form-container {
-	background-color: #1b262c;
-	color: #ffffff;
-	background: #1b262c; }
-	label { background-color: #1b262c;
-         color: white; }
-}
-
 /* The progress container (grey background) */
 .progress-container {
   position: fixed;
@@ -793,6 +775,25 @@ label {
   transition: .1s ease-out;
   transform-origin: left top;
   pointer-events: none;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	body {background:#121212;}
+        #projects { color: #ffffff; }
+	#contact { color: #ffffff; }
+	.card {color: #ffffff;
+	background: #1b262c; }
+	.cardAbout { background: #1b262c; }
+	.navbar { background: #000000; }
+	.navbar a{ color: #ffffff;}
+	#contactText {color: #ffffff;}
+	.form-container {
+	background-color: #1b262c;
+	color: white;
+	background: #1b262c; }
+	label { background-color: #1b262c;
+         color: white; }
 }
 
 
