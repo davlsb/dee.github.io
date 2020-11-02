@@ -19,13 +19,13 @@ function openForm() {
   document.getElementById("myForm").style.display = "block";
   document.getElementById("shadowBlur").style.display = "block";
   document.getElementById("shadowBlur").style.position = "fixed"
-  document.getElementById("myHeader").style.backdrop-filter = "blur(0px)";
+  document.getElementById("myHeader").setAttribute("style","-webkit-filter: blur(0px)");
 }
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
   document.getElementById("shadowBlur").style.display = "none";
-  document.getElementById("myHeader").style.backdrop-filter = "blur(10px)";
+  document.getElementById("myHeader").setAttribute("style","-webkit-filter: blur(10px)");
 }
 
 
