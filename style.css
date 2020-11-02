@@ -732,6 +732,34 @@ font-size: 1rem;
   transform: translateY(-50%) scale(.9);
 }
 
+
+
+
+
+.form-container textarea{
+font-size: 1rem;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;  
+  padding: 1rem 0.7rem;
+  color: gray;
+  transition: 0.1s ease-out;
+}
+
+/* When the inputs get focus, do something */
+.form-container textarea:focus + label {
+  color: #6200EE;
+  top: 0;
+  transform: translateY(-50%) scale(.9);
+}
+.form-container textarea:not(:placeholder-shown) + label {
+  top: 0;
+  transform: translateY(-50%) scale(.9);
+}
+
+
+
+
 /* Set a style for the submit/login button */
 .form-container .btn {
   background-color: #8E00FF;
