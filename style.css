@@ -777,6 +777,17 @@ label {
   pointer-events: none;
 }
 
+.material-textfield-message  {
+  position: relative;
+  padding: 0.2em;
+  margin-bottom: 1em;
+}
+
+.material-textfield-message > input {
+  width: 375px;
+ height: 25px;
+}
+
 
 @media (prefers-color-scheme: dark) {
 	body {background:#121212;}
