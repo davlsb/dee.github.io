@@ -20,17 +20,16 @@ function openForm() {
   document.getElementById("shadowBlur").style.display = "block";
   document.getElementById("shadowBlur").style.position = "fixed"
   document.getElementById("dee").style.display = "none";
+  document.getElementById("navigation").style.display = "none";
   document.getElementById("myHeader").setAttribute("style","-webkit-backdrop-filter: blur(0px)");
   document.getElementById("myHeader").setAttribute("style","backdrop-filter: blur(0px)");
- 
- 
-     backdrop-filter
 }
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
   document.getElementById("shadowBlur").style.display = "none";
   document.getElementById("dee").style.display = "block";
+  document.getElementById("navigation").style.display = "block";
   document.getElementById("myHeader").setAttribute("style","-webkit-backdrop-filter: blur(10px)");
   document.getElementById("myHeader").setAttribute("style","backdrop-filter: blur(10px)");
 }
