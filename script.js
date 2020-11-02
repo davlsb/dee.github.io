@@ -16,7 +16,6 @@ function myFunction() {
 }
 
 function openForm() {
-  $("#myForm").fadeIn("slow");
   document.getElementById("myForm").style.display = "block";
   document.getElementById("shadowBlur").style.display = "block";
   document.getElementById("shadowBlur").style.position = "fixed"
