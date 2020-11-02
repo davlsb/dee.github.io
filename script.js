@@ -18,6 +18,7 @@ function myFunction() {
 function openForm() {
   document.getElementById("myForm").style.display = "block";
   document.getElementById("shadowBlur").style.display = "block";
+ document.getElementById("shadowBlur").style.position = "fixed"
 }
 
 function closeForm() {
