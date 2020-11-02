@@ -828,6 +828,7 @@ label {
 
 .box {
     background-color: #eeeeee45;
+    display: none;
     border-radius: 5px;
     font-family: sans-serif;
     line-height: unset;
