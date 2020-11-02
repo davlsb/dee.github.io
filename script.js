@@ -16,6 +16,7 @@ function myFunction() {
 }
 
 function openForm() {
+  $("#myForm").fadeIn("slow");
   document.getElementById("myForm").style.display = "block";
   document.getElementById("shadowBlur").style.display = "block";
   document.getElementById("shadowBlur").style.position = "fixed"
@@ -23,7 +24,7 @@ function openForm() {
   document.getElementById("navigation").style.display = "none";
   document.getElementById("myHeader").setAttribute("style","-webkit-backdrop-filter: blur(0px)");
   document.getElementById("myHeader").setAttribute("style","backdrop-filter: blur(0px)");
-  $("#myForm").fadeIn("slow");
+
 }
 
 function closeForm() {
