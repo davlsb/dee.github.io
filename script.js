@@ -18,10 +18,12 @@ function myFunction() {
 function openForm() {
   document.getElementById("myForm").style.display = "block";
   document.getElementById("shadowBlur").style.display = "block";
- document.getElementById("shadowBlur").style.position = "fixed"
+  document.getElementById("shadowBlur").style.position = "fixed"
+  document.getElementById("myHeader").style.display = "none";
 }
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
   document.getElementById("shadowBlur").style.display = "none";
+  document.getElementById("myHeader").style.display = "block";
 }
