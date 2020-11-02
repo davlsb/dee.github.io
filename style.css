@@ -831,7 +831,6 @@ label {
     border-radius: 5px;
     font-family: sans-serif;
     line-height: unset;
-    position: fixed;
     rop-filter: blur(10px);
     backdrop-filter: blur(10px);
     top: 0;
