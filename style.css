@@ -456,6 +456,8 @@ av a:hover {
    header{     
 background: #9c41e600;
 position:absolute; }
+
+  backdrop-filter: blur(0px);
   .containerAbout{
   
     display: flex;
