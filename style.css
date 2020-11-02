@@ -865,6 +865,8 @@ label {
 	border: 1px solid white;
  	border-radius: 5px; }
 	.form-container textarea:focus + label { color: white; }
+	.box { background-color: #00000045; }
+
 }
 
 
