@@ -744,6 +744,9 @@ font-size: 1rem;
   padding: 1rem 0.7rem;
   color: gray;
   transition: 0.1s ease-out;
+  margin: 0px;
+  height: 177px;
+  width: 229px;
 }
 
 /* When the inputs get focus, do something */
