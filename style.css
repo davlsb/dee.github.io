@@ -775,10 +775,16 @@ font-size: 1rem;
   opacity: 0.8;
 }
 
-/* Add a red background color to the cancel button */
+/* Add a gray background color to the cancel button */
 .form-container .cancel {
  border-radius: 100px;
   background-color: gray;
+}
+
+.form-container .cancel:hover {
+  border-radius: 100px;
+  background-color: gray;
+  box-shadow:2px 2px 20px rgba(189, 195, 199, 0.80);
 }
 
 /* Add some hover effects to buttons */
