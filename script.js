@@ -20,10 +20,12 @@ function openForm() {
   document.getElementById("shadowBlur").style.display = "block";
   document.getElementById("shadowBlur").style.position = "fixed"
   document.getElementById("myHeader").style.display = "none";
+ document.getElementById("myNavbar").style.display = "none";
 }
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
   document.getElementById("shadowBlur").style.display = "none";
   document.getElementById("myHeader").style.display = "block";
+  document.getElementById("myNavbar").style.display = "block";
 }
