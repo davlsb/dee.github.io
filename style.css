@@ -706,7 +706,7 @@ position:absolute; }
   padding-bottom: 4em;
   background-color: white;
   border: 0.2px solid #4d4d4d27;
-  box-shadow: 0em 0em 20em 20em #4d4d4d63;
+  box-shadow: 0em 0em 2em 1em #4d4d4d63;
 position: fixed;
 top: 50%;
 left: 50%;
@@ -834,7 +834,6 @@ label {
     border-radius: 5px;
     font-family: sans-serif;
     line-height: unset;
-    rop-filter: blur(10px);
     backdrop-filter: blur(10px);
     top: 0;
     left: 0;
