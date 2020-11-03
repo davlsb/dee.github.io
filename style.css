@@ -872,7 +872,7 @@ input:-webkit-autofill, input:focus:-webkit-autofill {
 	.box { background-color: #00000094; }
 	input:-webkit-autofill, input:focus:-webkit-autofill {
         -webkit-box-shadow: 0px 0px 0 100px #1b262c inset; 
-	color:white;}
+	-webkit-text-fill-color:white;}
 
 }
 
