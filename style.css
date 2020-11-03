@@ -871,7 +871,8 @@ input:-webkit-autofill, input:focus:-webkit-autofill {
 	.form-container textarea:focus + label { color: white; }
 	.box { background-color: #00000094; }
 	input:-webkit-autofill, input:focus:-webkit-autofill {
-        -webkit-box-shadow: 0px 0px 0 100px #1b262c inset; }
+        -webkit-box-shadow: 0px 0px 0 100px #1b262c inset; 
+	color:white;}
 
 }
 
