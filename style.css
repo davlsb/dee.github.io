@@ -841,6 +841,9 @@ label {
     height: 100%;
 }
 
+input:-webkit-autofill, input:focus:-webkit-autofill {
+    -webkit-box-shadow: 0px 0px 0 100px #ffffff inset;
+}
 
 @media (prefers-color-scheme: dark) {
 	body {background:#121212;}
@@ -867,6 +870,8 @@ label {
  	border-radius: 5px; }
 	.form-container textarea:focus + label { color: white; }
 	.box { background-color: #00000094; }
+	input:-webkit-autofill, input:focus:-webkit-autofill {
+        -webkit-box-shadow: 0px 0px 0 100px #1b262c inset; }
 
 }
 
