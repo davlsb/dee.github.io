@@ -888,9 +888,6 @@ input:-webkit-autofill {
     -webkit-animation-fill-mode: both;
 }
 
-input:-webkit-autofill, input:focus:-webkit-autofill {
-   -webkit-box-shadow: 0 0 0 100px rgb(250, 255, 189) inset;
-}
 
 
 
