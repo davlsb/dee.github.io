@@ -759,6 +759,12 @@ font-size: 1rem;
   top: 0;
   transform: translateY(-50%) scale(.9);
 }
+
+.form-container textarea:placeholder-shown + label {
+  top: 50%;
+  transform: translateY(-50%) scale(.9);
+}
+
 .form-container textarea:not(:placeholder-shown) + label {
   top: 0;
   transform: translateY(-50%) scale(.9);
