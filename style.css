@@ -760,6 +760,7 @@ font-size: 1rem;
   transform: translateY(-50%) scale(.9);
 }
 .form-container textarea:not(:placeholder-shown) + label {
+  top: 0;
   transform: translateY(-50%) scale(.9);
 }
 
@@ -847,7 +848,6 @@ input:-webkit-autofill, input:focus:-webkit-autofill {
     -webkit-box-shadow: 0px 0px 0 100px #ffffff inset;
 }
 
-label.textmsg { top:0%; }
 
 @media (prefers-color-scheme: dark) {
 	body {background:#121212;}
