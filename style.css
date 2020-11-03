@@ -765,12 +765,6 @@ font-size: 1rem;
   transform: translateY(-50%) scale(.9);
 }
 
-.form-container textarea:not(:placeholder-shown) + label {
-  top: 0;
-  transform: translateY(-50%) scale(.9);
-}
-
-
 
 
 /* Set a style for the submit/login button */
