@@ -42,7 +42,7 @@ function sendForm() {
   document.getElementById("navigation").style.display = "block";
   document.getElementById("myHeader").setAttribute("style","-webkit-backdrop-filter: blur(10px)");
   document.getElementById("myHeader").setAttribute("style","backdrop-filter: blur(10px)");
- window.alert("Your form was submitted, thank you :)");
+  window.alert("Your form was submitted, thank you :)");
 }
 
 
