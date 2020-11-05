@@ -724,6 +724,7 @@ transform: translate(-50%, -50%);
   color: gray;
   width: -webkit-fill-available;
   transition: 0.1s ease-out;
+  font-family: 'Alata', sans-serif;
 }
 
 /* When the inputs get focus, do something */
@@ -731,10 +732,12 @@ transform: translate(-50%, -50%);
   color: #6200EE;
   top: 0;
   transform: translateY(-50%) scale(.9);
+  font-family: 'Alata', sans-serif;
 }
 .form-container input:not(:placeholder-shown) + label {
   top: 0;
   transform: translateY(-50%) scale(.9);
+  font-family: 'Alata', sans-serif;
 }
 
 
@@ -753,6 +756,7 @@ font-size: 1rem;
   height: 177px;
   width: 229px;
   resize: none;
+  font-family: 'Alata', sans-serif;
 }
 
 /* When the inputs get focus, do something */
@@ -823,7 +827,6 @@ label {
   transition: .1s ease-out;
   transform-origin: left top;
   pointer-events: none;
-  font-family: 'Alata', sans-serif;
 }
 
 
@@ -854,6 +857,7 @@ label {
 
 input:-webkit-autofill, input:focus:-webkit-autofill {
     -webkit-box-shadow: 0px 0px 0 100px #ffffff inset;
+    font-family: 'Alata', sans-serif;
 }
 
 
@@ -900,6 +904,7 @@ input:-webkit-autofill {
     -webkit-animation-delay: 1s; /* Safari support - any positive time runs instantly */
     -webkit-animation-name: autofill;
     -webkit-animation-fill-mode: both;
+      font-family: 'Alata', sans-serif;
 }
 
 
