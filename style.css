@@ -722,6 +722,7 @@ font-size: 1rem;
   border-radius: 5px;  
   padding: 1rem 0.7rem;
   color: gray;
+  width: -webkit-fill-available;
   transition: 0.1s ease-out;
 }
 
