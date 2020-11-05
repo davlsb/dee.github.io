@@ -178,7 +178,7 @@
       <textarea name="entry.1960167367" id="entry.1960167367" cols="40" rows="5" placeholder="Message"></textarea>
 	</div>
 
-    <button type="submit" class="btn">Send</button>
+    <button type="submit" class="btn" onclick="closeForm()">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 	
@@ -198,15 +198,7 @@
    <script src="lazysizes.min.js" async=""></script>
    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
    <script src="script.js" defer></script>
-  
-	
    <script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your submission has been processed...');
-  });
-	</script>
 	
 	
    <script type="module">     
