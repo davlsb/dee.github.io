@@ -36,9 +36,12 @@ function closeForm() {
 }
 
 function sendForm() {
-  $('#myForm *').fadeOut(2000);
-  $('#myForm').prepend('Your submission has been processed...');
-  });
+  document.getElementById("myForm").style.display = "none";
+  document.getElementById("shadowBlur").style.display = "none";
+  document.getElementById("dee").style.display = "block";
+  document.getElementById("navigation").style.display = "block";
+  document.getElementById("myHeader").setAttribute("style","-webkit-backdrop-filter: blur(10px)");
+  document.getElementById("myHeader").setAttribute("style","backdrop-filter: blur(10px)");
 }
 
 
