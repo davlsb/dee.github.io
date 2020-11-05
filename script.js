@@ -35,4 +35,10 @@ function closeForm() {
   document.getElementById("myHeader").setAttribute("style","backdrop-filter: blur(10px)");
 }
 
+function sendForm() {
+  $('#myForm *').fadeOut(2000);
+  $('#myForm').prepend('Your submission has been processed...');
+  });
+}
+
 
