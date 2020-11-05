@@ -42,6 +42,9 @@ function sendForm() {
   document.getElementById("navigation").style.display = "block";
   document.getElementById("myHeader").setAttribute("style","-webkit-backdrop-filter: blur(10px)");
   document.getElementById("myHeader").setAttribute("style","backdrop-filter: blur(10px)");
+  document.getElementById('entry.1803483636').value=''; 
+  document.getElementById('entry.567895808').value=''; 
+  document.getElementById('entry.1960167367').value=''; 
   window.alert("Your form was submitted, thank you :)");
 }
 
