@@ -191,15 +191,27 @@
   <a href="#projectsMark">Projects</a>
    <a href="#contact">Contact</a>
 </div>
-
+	
+   <script src="lazysizes.min.js" async=""></script>
    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
    <script src="script.js" defer></script>
-   <script src="lazysizes.min.js" async=""></script>
+  
+	
+   <script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+	</script>
+	
+	
    <script type="module">     
 import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 const el = document.createElement('pwa-update');
 document.body.appendChild(el);
     </script>
+
     
 
 <footer>
