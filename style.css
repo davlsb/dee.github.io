@@ -160,6 +160,66 @@ av a:hover {
 
 #projectsMark{ margin: 0.2em;}
 
+.cardEx {
+  background: #ffffff;
+  font-size: 1.3rem;
+  font-family: 'Alata', sans-serif;
+  border-radius: 25px;
+  box-shadow: 0.5em 0.5em 1em #4d4d4d27;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+
+#QCtype {
+  display: inline-flex;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.cardEx > div {
+  padding: 2rem;
+}
+
+#skills {
+  color:#222;
+  font-family: 'Alata', sans-serif;
+  font-size: 2em;
+  padding-top: 50px;
+  padding-bottom: -1em;
+}
+
+#skillType {
+  display: inline-flex;
+  color:#222;
+  font-family: 'Alata', sans-serif;
+  font-size: 1.2em;
+  padding-right: 10px;
+  padding-top: 0.5em;
+}
+
+#skillChips {
+  display: inline-flex;
+  flex-direction: row;
+  background-color: #e5e5e5;
+  font-family: 'Alata', sans-serif;
+  border: none;
+  cursor: default;
+  height: 36px;
+  outline: none;
+  padding: 0;
+  margin-top: 0.2em;
+  font-size: 14px;
+  color: #222;
+  white-space: nowrap;
+  align-items: center;
+  border-radius: 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  justify-content: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
 
 #projects {
   color:#222;
