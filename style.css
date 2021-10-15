@@ -181,7 +181,7 @@ av a:hover {
   padding: 2rem;
 }
 
-#skills {
+#newTitle {
   color:#222;
   font-family: 'Alata', sans-serif;
   font-size: 2em;
@@ -927,7 +927,8 @@ input:-webkit-autofill, input:focus:-webkit-autofill {
 	#contact { color: #ffffff; }
 	.card {color: #ffffff;
 	background: #1b262c; }
-	.cardAbout { background: #1b262c; }
+	.cardEx { background: #1b262c;
+            color:white }
 	.navbar { background: #000000; }
 	.navbar a{ color: #ffffff;}
 	#contactText {color: #ffffff;}
@@ -953,6 +954,13 @@ input:-webkit-autofill, input:focus:-webkit-autofill {
 	.form-container textarea{color:white;}
         .form-container input[type=text], .form-container input[type=email], .form-container input[type=password] { color:white; }
 
+  #newTitle { color:white; }
+  #skillType { color: white;}
+  #skillChips {
+    background-color: #1b262c;
+    color: white;;
+        }
+        
 }
 
 @-webkit-keyframes autofill {
