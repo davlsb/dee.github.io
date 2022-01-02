@@ -431,11 +431,11 @@ av a:hover {
 
 .flex-child {
     flex: 1;
-    border: 2px solid yellow;
+    margin-left: 0.5em;
 }  
 
 .flex-child:first-child {
-    margin-right: 20px;
+    margin-right: 0.5em;
 } 
 
 
