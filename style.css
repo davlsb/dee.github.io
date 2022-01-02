@@ -370,12 +370,6 @@ av a:hover {
   overflow: hidden;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
-
 
   .fa {
     padding: 20px;
@@ -429,6 +423,21 @@ av a:hover {
   width: 100%; /* self explanatory */ /*The element is positioned relative to its first positioned (not static) ancestor element*/
   bottom: 0PX; /*property affects the vertical position of a positioned element*/
 }
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
 
 
 /* Place the navbar at the bottom of the page, and make it stick */
