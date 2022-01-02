@@ -426,20 +426,6 @@ av a:hover {
 }
 
 
-.flex-container {
-    display: flex;
-}
-
-.flex-child {
-    flex: 1;
-    margin-left: 0.5em;
-}  
-
-.flex-child:first-child {
-    margin-right: 0.5em;
-} 
-
-
 
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
