@@ -37,6 +37,7 @@ z-index: 9999;
   font-family: 'Work Sans', sans-serif;
   margin:0;
 }
+
 header {
     z-index: 9999;
     -webkit-backdrop-filter: blur(5px);
@@ -108,15 +109,15 @@ av a:hover {
 }
 
 .about{
-  background:#8E00FF;
-  
+  background-image: linear-gradient(#8c00ff, #8c00ff, #8c00ffd7, #8c00ffd7, #7f01e6bd, #8c00ffb7, #8c00ff00);
+  height: 63em;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .about img{
-  float:right;
-  padding-left:200px;
-  padding-right:150px;
-  padding-top:250px;
+position: relative;
+margin-top: 10em;
 
 }
 
@@ -145,7 +146,7 @@ av a:hover {
   padding-left: 3.7em;
   padding-bottom: 50px;
   font-size: 1.6em;
-  margin:3em;
+  margin:2em;
 }
 
 .firstWave{
@@ -188,7 +189,8 @@ av a:hover {
   font-family: 'Alata', sans-serif;
   font-size: 2em;
   padding-top: 50px;
-  padding-bottom: -1em;
+  text-align: center;
+  padding-bottom: 0.5em;
 }
 
 #skillType {
@@ -228,6 +230,8 @@ av a:hover {
   font-family: 'Alata', sans-serif;
   font-size: 2em;
   padding-top: 50px;
+  text-align: center;
+  padding-bottom: 0.5em;
 }
 
 .card {
@@ -334,6 +338,8 @@ av a:hover {
 
 #contact > .contactTitle {
   font-size: 3em;
+  text-align: center;
+  padding-bottom: 0.5em;
 }
 
 #contactText{
@@ -347,6 +353,7 @@ av a:hover {
   margin: auto;
   overflow: auto;
   padding: 0 2rem;
+  margin-bottom: 2em;
 }
 
 .cardAbout {
@@ -483,7 +490,9 @@ av a:hover {
 @media screen and (max-width: 1025px) {
 
 .about{
-    background: linear-gradient(180deg,#8E00FF,#b933f9,#8E00FF);
+    background: radial-gradient(180deg,#8E00FF,#b933f9,#8E00FF, #8c00ff00);
+    display: grid;
+    grid-template-columns: 20fr 0fr;
   }
 	
   .top{ background: #ff3d7700}
@@ -582,13 +591,6 @@ position:absolute; }
 
 
 @media screen and (min-width: 1600px) {
-  .about img{
-    float:right;
-    padding-left:200px;
-    padding-right:150px;
-    padding-top:250px;
-  
-  }
   
   #aboutme{
     color:#ffffff;
@@ -596,7 +598,7 @@ position:absolute; }
     font-size: 2em;
     padding-top: 150px;
     padding-left: 2.2em;
-    margin:4em;
+    margin:2em;
   }
   
 
@@ -607,7 +609,7 @@ position:absolute; }
     padding-left: 3em;
     padding-bottom: 50px;
     font-size: 1.8em;
-    margin:4em;
+    margin:2em;
   }
 
   .container{
@@ -638,13 +640,6 @@ position:absolute; }
     font-size: 2em;
     }
 
-  .about img{
-    float:right;
-    padding-left:200px;
-    padding-right:150px;
-    padding-top:250px;
-  
-  }
   
   #aboutme{
     color:#ffffff;
@@ -652,7 +647,7 @@ position:absolute; }
     font-size: 2em;
     padding-top: 150px;
     padding-left: 6em;
-    margin:3em;
+    margin:1em;
   }
   
 
@@ -664,7 +659,7 @@ position:absolute; }
     padding-right: 2.5em;
     padding-bottom: 50px;
     font-size: 2em;
-    margin:5em;
+    margin:0em;
   }
 }
 
@@ -679,13 +674,12 @@ position:absolute; }
   }
 
   #info{
-
     font-size: large;
     padding-left: 2.5em;
     padding-right: 2.5em;
     padding-bottom: 50px;
     font-size: 2.2em;
-    margin:5em;
+    margin:3em;
   }
 }
 @media screen and (min-width: 2200px) {
@@ -695,17 +689,16 @@ position:absolute; }
     font-size: 3em;
     padding-top: 150px;
     padding-left: 3em;
-    margin:3em;
+    margin:2em;
   }
 
   #info{
-
     font-size: large;
     padding-left: 2.5em;
     padding-right: 2.5em;
     padding-bottom: 50px;
     font-size: 2.4em;
-    margin:5em;
+    margin:3em;
   }
 
   .card {
@@ -716,7 +709,8 @@ position:absolute; }
       }
     .container{
       max-width: 1700px;}
-      .containerContact{  max-width: 1700px;}
+    .containerContact{  max-width: 1700px;
+        margin-bottom: 2em;}
 
 }
 
@@ -979,6 +973,7 @@ input:-webkit-autofill {
     -webkit-animation-fill-mode: both;
       font-family: 'Alata', sans-serif;
 }
+
 
 
 
