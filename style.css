@@ -222,7 +222,8 @@ margin-top: 10em;
   display: inline-flex;
   flex-direction: row;
   background-color: #e5e5e5;
-  font-family: 'Alata', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
   border: none;
   cursor: default;
   height: 36px;
@@ -239,6 +240,7 @@ margin-top: 10em;
   justify-content: center;
   padding-left: 12px;
   padding-right: 12px;
+
 }
 
 #projects {
@@ -440,12 +442,21 @@ margin-top: 10em;
   margin: 0;
   padding: 0;
 }
+
 .wave-container > svg {
   display: block;
 }
-.footer {
+
+footer {
   width: 100%; /* self explanatory */ /*The element is positioned relative to its first positioned (not static) ancestor element*/
   bottom: 0PX; /*property affects the vertical position of a positioned element*/
+  background-color: #5d1399;
+  font-family: 'Outfit', sans-serif;
+  height: 4em;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color:white
 }
 
 
