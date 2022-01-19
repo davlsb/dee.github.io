@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
 @import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap');
+
 
 
 html {
@@ -18,9 +20,16 @@ html {
   scrollbar-width: none;
 }
 
+p{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+}
+
+
 @font-face {
   src: "https://fonts.googleapis.com/css?family=Alata&display=swap";
-  font-family: 'Alata', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
   font-display: fallback; /* Define how the browser behaves during download */
 }
 
@@ -123,14 +132,15 @@ margin-top: 10em;
 
 #aboutme {
     color: #ffffff;
-    font-family: 'Alata', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
     font-size: 2.3em;
     padding-top: 150px;
     padding-left: 2em;
     margin-left: 3em;
     display: inline-block;
-}
 
+}
 
 .containerAbout{
 
@@ -148,6 +158,11 @@ margin-top: 10em;
   font-size: 1.6em;
   margin: 3em;
   width: 55%;
+}
+
+#info p{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
 }
 
 .firstWave{
