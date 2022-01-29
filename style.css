@@ -400,8 +400,7 @@ margin-top: 10em;
 }
 
 
-
-  .bx {
+  .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -411,31 +410,30 @@ margin-top: 10em;
     border-radius: 100px;
   }
 
-  .bxl-linkedin {
+  .fa-linkedin {
     background: #0967af;
     color: white;
   }
-  .bxl-github {
+  .fa-github {
     background: #000000;
     color: white;
   }
-  .bxs-envelope {
+  .fa-envelope {
     background: #8E00FF;
     color: white;
   }
 
-.bxl-linkedin:hover {
+.fa-linkedin:hover {
     opacity: 0.7;
     transition: all ease-in-out 300ms;
     box-shadow:2px 2px 20px rgba(34, 126, 231, 0.76);
 }
-
-.bxl-github:hover {
+.fa-github:hover {
   opacity: 0.7;
   transition: all ease-in-out 300ms;
-  box-shadow:2px 2px 20px rgba(95, 95, 95, 0.76);
+  box-shadow:2px 2px 20px rgba(37, 37, 37, 0.76);
 }
-.bxs-envelope:hover {
+.fa-envelope:hover {
   opacity: 0.7;
   transition: all ease-in-out 300ms;
   box-shadow:2px 2px 20px rgba(145, 92, 182, 0.76);
@@ -679,6 +677,7 @@ footer {
     padding: 0 2rem;
     padding-left: 0px;
     padding-right: 0px;
+    overflow-x: hidden;
     }
     .card:nth-child(even) img {
       order: 2;
@@ -727,6 +726,7 @@ footer {
     overflow: auto;
     padding: 0 2rem;
     padding-left: 20px;
+  
   }
   .card {
   font-size: 1.5em;
