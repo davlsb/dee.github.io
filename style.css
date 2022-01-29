@@ -462,8 +462,9 @@ footer {
 }
 
 
+/*old navbar
 
-/* Place the navbar at the bottom of the page, and make it stick */
+/* Place the navbar at the bottom of the page, and make it stick
 .navbar {
   position: fixed;
   font-family: 'Work Sans', sans-serif;
@@ -477,7 +478,7 @@ footer {
       overflow-x: auto;
   }
   
-  /* Style the links inside the navigation bar */
+  /* Style the links inside the navigation bar
   .navbar a {
     z-index: 9999;
     float: left;
@@ -491,13 +492,13 @@ footer {
     justify-content: center;
   }
   
-  /* Change the color of links on hover */
+  /* Change the color of links on hover
   .navbar a:hover {
     background-color: #8E00FF;
     color: #ffffff;
   }
   
-  /* Add a color to the active/current link */
+  /* Add a color to the active/current link
   .navbar a.active {
    display: flex;
       flex-direction: column;
@@ -513,8 +514,69 @@ footer {
       margin:0;
   }
 
+  .navbar {display: none}
+*/
 
-.navbar {display: none}
+.tab-container{
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  display:flex;
+  justify-content: space-between;
+  padding: 0.3em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 55px;
+  overflow-x: hidden; 
+}
+
+.tab{
+  background: white;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  margin: 0em;
+  transition: background 0.4s linear;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden; 
+  margin-right: 0.5em;
+}
+
+.tab i{
+  font-size: 1.2em;
+}
+
+.tab p{
+  font-weight: bold;
+  overflow:hidden;
+  max-width: 0;
+}
+
+.tab.active p{
+  margin-left: 10px;
+  max-width: 200px;
+  transition: max-width 0.4s linear;
+}
+
+.tab.active.purple{
+  background: rgba(91, 55, 183, 0.2);
+  color: rgba(91, 55, 183, 1)
+}
+
+.tab-container{ 
+  display: none;
+}
+
 
 .repBtn{
   color:white;
@@ -606,7 +668,7 @@ footer {
   box-shadow: 0.1em 0.1em 0.1em #4a01862c;
 }
 	
-  .navbar {display:block;}
+  .tab-container {display:flex;}
   .container {
     max-width: 1100px;
     margin: 1em;
@@ -967,7 +1029,15 @@ input:-webkit-autofill, input:focus:-webkit-autofill {
 	background: #1b262c; }
 	.cardEx { background: #1b262c;
             color:white }
-	.navbar { background: #000000; }
+	.tab-container { background: #000000; }
+  .tab { 
+    background-color: #00000094;
+    color:white;
+  }
+  .tab.active.purple{
+    background: #9104fcbd;
+    color: rgb(255, 255, 255)
+  }
 	.navbar a{ color: #ffffff;}
 	#contactText {color: #ffffff;}
 	.form-container {

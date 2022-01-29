@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://cdnjs.cloudflare.com/">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="print" onload="if(media!=='all')media='all'">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
         <link rel="preconnect" href="https://fonts.gstatic.com/">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="apple-touch-icon" sizes="180x180" href="Assets/apple-touch-icon.png">
@@ -99,7 +100,6 @@
         </p>
       </div>
     </section>
-
 
     <div id="newTitle">
       <h2>Skills </h2>
@@ -282,12 +282,34 @@ This solution has a hyperlocal setup, so esentially, with a click of a button, a
 </main>
         
     
-<div class="navbar" id="myNavbar">
-   <a href="#aboutpics" class='target'>About</a>
-   <a href="#projectsMark" class='target'>Projects</a>
-   <a href="#contact" class='target'>Contact</a>
-   <a href="Assets/DeeSlawotskyResume.pdf" class='target'>Resume</a>
+<div class="tab-body">
+  <div class="tab-container">
+    <a href="#aboutme">
+      <div class="tab purple active">
+        <i class='bx bx-info-circle'></i>
+      <p>Home</p>
+      </div>
+    <a href="#projectsMark">
+      <div class="tab purple">
+        <i class='bx bx-briefcase'></i>
+        <p>Projects</p>
+      </div>
+    </a>
+    <a href="#contact">
+      <div class="tab purple">
+        <i class='bx bx-mail-send'></i>
+        <p>Contact</p>
+      </div>
+    </a>
+    <a href="#">
+      <div class="tab purple">
+        <i class='bx bx-folder-open' ></i>
+        <p>Resume</p>
+      </div>
+    </a>
+  </div>
 </div>
+
 	
    <script src="lazysizes.min.js" async=""></script>
    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
@@ -301,8 +323,22 @@ const el = document.createElement('pwa-update');
 document.body.appendChild(el);
     </script>
 
+
   <script>
-    $('#currentNavbar').addClass('active')
+    const tabs = document.querySelectorAll('.tab');
+
+    tabs.forEach(clickedTab => {
+      clickedTab.addEventListener('click', ()=>{
+        tabs.forEach(tab => {
+        tab.classList.remove('active');
+      });
+
+      clickedTab.classList.add('active');
+      const clickedTabBGColor = getComputedStyle(clickedTab).getPropertyValue('color');
+      console.log(clickedTabBGColor);
+      /* document.btn.style.background = clickedTabBGColor; */
+    });
+    });
   </script>
 
     
