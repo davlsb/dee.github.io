@@ -329,6 +329,7 @@ margin-top: 10em;
   color: #ffffff;
   transition: all ease-in-out 300ms;
   box-shadow:2px 2px 20px rgba(145, 92, 182, 0.76);
+  box-shadow:2px 2px 20px rgba(255, 255, 255, 0.473);
 }
 
 
@@ -583,7 +584,22 @@ footer {
 
 .tab.active.purple{
   background: rgba(91, 55, 183, 0.2);
-  color: rgba(91, 55, 183, 1)
+  color: rgb(147,112,219)
+}
+
+.tab.active.pink{
+  background: rgba(183, 55, 151, 0.2);
+  color: rgb(236, 33, 175)
+}
+
+.tab.active.yellow{
+  background: rgba(243, 232, 74, 0.2);
+  color: rgb(224, 214, 71)
+}
+
+.tab.active.green{
+  background: rgba(55, 183, 108, 0.2);
+  color: rgb(55, 183, 72)
 }
 
 .tab-container{ 
@@ -1054,8 +1070,7 @@ input:-webkit-autofill, input:focus:-webkit-autofill {
     color:white;
   }
   .tab.active.purple{
-    background: #9104fcbd;
-    color: rgb(255, 255, 255)
+    background: #ad5aec4d;
   }
 	.navbar a{ color: #ffffff;}
 	#contactText {color: #ffffff;}

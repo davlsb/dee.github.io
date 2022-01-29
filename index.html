@@ -177,7 +177,7 @@
          Created using HTML, CSS & Javascript.
          The portfolio website adapts to the system based on Dark and Light theme, optimized per Web.Dev guidelines, and is PWA (Progressive Web App) ready including a Service Worker to cache the content.
        </p>
-       <a href="https://github.com/davlsb/dee.github.io" class="btn">Github</a>
+       <a href="https://github.com/davlsb/dee.github.io" id="btnGit1" class="btn">Github</a>
      </div>
    </section>
 
@@ -193,7 +193,7 @@
          Explored, analysed and wrangled data to determine the risk of an individual to be readmitted to a hospital within 30 days based on an dataset.
 Implemented the kNN and Decision Tree method and compared the accuracy of the 2 algorithms for optimal assessment and prediction.
        </p>
-       <a href="https://github.com/davlsb/data_analytics_2/blob/main/Python/Unit4/Project_4.ipynb" class="btn">Github</a>
+       <a href="https://github.com/davlsb/data_analytics_2/blob/main/Python/Unit4/Project_4.ipynb" id="btnGit2" class="btn">Github</a>
      </div>
    </section>
 	  
@@ -210,7 +210,7 @@ Implemented the kNN and Decision Tree method and compared the accuracy of the 2 
         Using React, the Material UI library, Sequelize, and Express.js routes, Lochitty was created, focused to reconnect people and ease our communities back to pre-pandemic norm. 
 This solution has a hyperlocal setup, so esentially, with a click of a button, any logged in user can post a chat message or plan an event so that any other user within the same zip code can see them. 
        </p>
-       <a href="https://github.com/davlsb/Lochitty" class="btn">Github</a>
+       <a href="https://github.com/davlsb/Lochitty" id="btnGit3" class="btn">Github</a>
      </div>
    </section>
 	 <!--In Progress. Design being finalized. Adaptive icon, Flutter, and edge to edge design. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
@@ -266,7 +266,7 @@ This solution has a hyperlocal setup, so esentially, with a click of a button, a
       <textarea name="entry.1960167367" id="entry.1960167367" cols="40" rows="5" placeholder="Message"></textarea>
 	</div>
 
-    <button type="submit" class="btn" onclick="sendForm()">Send</button>
+    <button id="submitBtn" type="submit" class="btn" onclick="sendForm()">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close and Reset</button>
   </form>
 	
@@ -280,25 +280,25 @@ This solution has a hyperlocal setup, so esentially, with a click of a button, a
     
 <div class="tab-body">
   <div class="tab-container">
-    <a href="#aboutme">
+    <a class="waitBeforeNavigateQuick" href="#aboutme">
       <div class="tab purple active">
         <i class='bx bx-info-circle'></i>
       <p>About</p>
       </div>
-    <a href="#projectsMark">
-      <div class="tab purple">
+    <a class="waitBeforeNavigateQuick" href="#projectsMark">
+      <div class="tab pink">
         <i class='bx bx-briefcase'></i>
         <p>Projects</p>
       </div>
     </a>
-    <a href="#contact">
-      <div class="tab purple">
+    <a class="waitBeforeNavigateQuick" href="#contact">
+      <div class="tab yellow">
         <i class='bx bx-mail-send'></i>
         <p>Contact</p>
       </div>
     </a>
     <a class="waitBeforeNavigate" href="Assets/DeeSlawotskyResume.pdf">
-      <div class="tab purple">
+      <div class="tab green">
         <i class='bx bx-file'></i>
         <p>Resume</p>
       </div>
@@ -332,7 +332,26 @@ document.body.appendChild(el);
       clickedTab.classList.add('active');
       const clickedTabBGColor = getComputedStyle(clickedTab).getPropertyValue('color');
       console.log(clickedTabBGColor);
-      /* document.btn.style.background = clickedTabBGColor; */
+      document.getElementById('btnGit1').style.background = clickedTabBGColor;
+      document.getElementById('btnGit2').style.background = clickedTabBGColor;
+      document.getElementById('btnGit3').style.background = clickedTabBGColor;
+      document.getElementById('submitBtn').style.background = clickedTabBGColor;
+     
+      if(clickedTabBGColor == "rgb(147, 112, 219)"){ //Purple
+      document.getElementsByClassName('about')[0].style.backgroundImage = 'linear-gradient(to bottom,#8c00ff, #8c00ff, #8c00ffd7, #8c00ffd7, #7f01e6bd, #8c00ffb7, #8c00ff00)';
+      }
+      else if(clickedTabBGColor == "rgb(236, 33, 175)"){ //Pink
+      document.getElementsByClassName('about')[0].style.backgroundImage = 'linear-gradient(to bottom, rgba(230, 19, 167, 0.95), rgba(230, 19, 167, 0.85), rgba(230, 19, 167, 0.75), rgba(230, 19, 167, 0.65), rgba(230, 19, 167, 0.55), rgba(230, 19, 167, 0.45), #8c00ff00)';
+      }
+      else if(clickedTabBGColor == "rgb(224, 214, 71)"){ //Yellow
+      document.getElementsByClassName('about')[0].style.backgroundImage = 'linear-gradient(to bottom, rgba(224, 214, 71, 0.95), rgba(224, 214, 90, 0.90), rgba(224, 214, 120, 0.85), rgba(224, 214, 150, 0.80), rgba(224, 214, 170, 0.75), rgba(224, 214, 190, 0.70), #8c00ff00)';
+      document.getElementById('info').style.color = "#fff";
+      }
+      else if(clickedTabBGColor == "rgb(55, 183, 72)"){ //Yellow
+      document.getElementsByClassName('about')[0].style.backgroundImage = 'linear-gradient(to bottom, rgba(55, 183, 72, 0.95), rgba(55, 183, 90, 0.90), rgba(55, 183, 120, 0.80), rgba(55, 183, 150, 0.70), rgba(55, 183, 170, 0.60), rgba(55, 183, 190, 0.50), #8c00ff00)';
+      document.getElementById('info').style.color = "#fff";
+      }
+
     });
     });
 
@@ -346,6 +365,17 @@ document.body.appendChild(el);
       }; 
       document.querySelectorAll(".waitBeforeNavigate")
       .forEach(EL => EL.addEventListener("click", waitBeforeNavigate));
+
+    function waitBeforeNavigateQuick(ev) {
+      ev.preventDefault();                    // prevent default anchor behavior
+      const goTo = this.getAttribute("href"); // store anchor href
+      setTimeout(function(){
+      window.location = goTo;
+      }, 400);                               // time in ms
+      }; 
+      document.querySelectorAll(".waitBeforeNavigateQuick")
+      .forEach(EL => EL.addEventListener("click", waitBeforeNavigateQuick));
+
   </script>
 
     
