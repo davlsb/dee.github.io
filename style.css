@@ -346,7 +346,7 @@ margin-top: 10em;
   padding: 0 2rem;
   padding-left: 20px;
 	padding-top: -50px;
-
+  overflow-x: hidden;
 }
 
 
@@ -374,6 +374,7 @@ margin-top: 10em;
   overflow: auto;
   padding: 0 2rem;
   margin-bottom: 2em;
+  overflow-y: hidden;
 }
 
 .cardAbout {
@@ -399,7 +400,8 @@ margin-top: 10em;
 }
 
 
-  .fa {
+
+  .bx {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -409,30 +411,31 @@ margin-top: 10em;
     border-radius: 100px;
   }
 
-  .fa-linkedin {
+  .bxl-linkedin {
     background: #0967af;
     color: white;
   }
-  .fa-github {
+  .bxl-github {
     background: #000000;
     color: white;
   }
-  .fa-envelope {
+  .bxs-envelope {
     background: #8E00FF;
     color: white;
   }
 
-.fa-linkedin:hover {
+.bxl-linkedin:hover {
     opacity: 0.7;
     transition: all ease-in-out 300ms;
     box-shadow:2px 2px 20px rgba(34, 126, 231, 0.76);
 }
-.fa-github:hover {
+
+.bxl-github:hover {
   opacity: 0.7;
   transition: all ease-in-out 300ms;
-  box-shadow:2px 2px 20px rgba(37, 37, 37, 0.76);
+  box-shadow:2px 2px 20px rgba(95, 95, 95, 0.76);
 }
-.fa-envelope:hover {
+.bxs-envelope:hover {
   opacity: 0.7;
   transition: all ease-in-out 300ms;
   box-shadow:2px 2px 20px rgba(145, 92, 182, 0.76);
@@ -724,7 +727,6 @@ footer {
     overflow: auto;
     padding: 0 2rem;
     padding-left: 20px;
-  
   }
   .card {
   font-size: 1.5em;
