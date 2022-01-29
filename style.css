@@ -27,10 +27,11 @@ p{
 
 
 @font-face {
-  src: "https://fonts.googleapis.com/css?family=Alata&display=swap";
+  src:local('Pacifico Regular'), url("https://fonts.googleapis.com/css?family=Alata&display=swap");
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-display: fallback; /* Define how the browser behaves during download */
+  font-display: swap;
 }
 
 ::-webkit-scrollbar {
