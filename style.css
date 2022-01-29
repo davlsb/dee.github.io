@@ -400,7 +400,7 @@ margin-top: 10em;
 }
 
 
-  .fa {
+  #contactButtons {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -410,30 +410,30 @@ margin-top: 10em;
     border-radius: 100px;
   }
 
-  .fa-linkedin {
+  .bxl-linkedin {
     background: #0967af;
     color: white;
   }
-  .fa-github {
+  .bxl-github {
     background: #000000;
     color: white;
   }
-  .fa-envelope {
+  .bxs-envelope {
     background: #8E00FF;
     color: white;
   }
 
-.fa-linkedin:hover {
+.bxl-linkedin:hover {
     opacity: 0.7;
     transition: all ease-in-out 300ms;
     box-shadow:2px 2px 20px rgba(34, 126, 231, 0.76);
 }
-.fa-github:hover {
+.bxl-github:hover {
   opacity: 0.7;
   transition: all ease-in-out 300ms;
-  box-shadow:2px 2px 20px rgba(37, 37, 37, 0.76);
+  box-shadow:2px 2px 20px rgba(119, 119, 119, 0.76);
 }
-.fa-envelope:hover {
+.bxs-envelope:hover {
   opacity: 0.7;
   transition: all ease-in-out 300ms;
   box-shadow:2px 2px 20px rgba(145, 92, 182, 0.76);
@@ -847,6 +847,11 @@ footer {
     margin: 5px 2px;
     border-radius: 100px;
     border-color: transparent;
+}
+
+.open-button:hover{
+    transition: all ease-in-out 300ms;
+    box-shadow:2px 2px 20px rgba(158, 158, 158, 0.76);
 }
 
 
