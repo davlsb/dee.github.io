@@ -283,10 +283,10 @@ This solution has a hyperlocal setup, so esentially, with a click of a button, a
         
     
 <div class="navbar" id="myNavbar">
-   <a href="#aboutpics">About</a>
-   <a href="#projectsMark">Projects</a>
-   <a href="#contact">Contact</a>
-   <a href="Assets/DeeSlawotskyResume.pdf">Resume</a>
+   <a href="#aboutpics" class='target'>About</a>
+   <a href="#projectsMark" class='target'>Projects</a>
+   <a href="#contact" class='target'>Contact</a>
+   <a href="Assets/DeeSlawotskyResume.pdf" class='target'>Resume</a>
 </div>
 	
    <script src="lazysizes.min.js" async=""></script>
@@ -301,12 +301,17 @@ const el = document.createElement('pwa-update');
 document.body.appendChild(el);
     </script>
 
+  <script>
+    $('#currentNavbar').addClass('active')
+  </script>
+
     
 
 <footer>
+  
   Thanks for stopping by!
   <br>
-  If you like this site, feel free to check the repository to see how it was built
+  If you like this site, feel free to check the <a href="https://github.com/davlsb/dee.github.io" class="repBtn">repository</a> to see how it was built
   <br>
   😊
   <br>
