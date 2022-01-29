@@ -400,8 +400,7 @@ margin-top: 10em;
   overflow: hidden;
 }
 
-
-  #contactButtons {
+  .bxl-linkedin {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -409,17 +408,28 @@ margin-top: 10em;
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 100px;
-  }
-
-  .bxl-linkedin {
     background: #0967af;
     color: white;
   }
   .bxl-github {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100px;
     background: #000000;
     color: white;
   }
   .bxs-envelope {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100px;
     background: #8E00FF;
     color: white;
   }
