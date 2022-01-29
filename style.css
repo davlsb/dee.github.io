@@ -840,11 +840,11 @@ footer {
     background: gray;
     color: white;
     font-family: 'Alata', sans-serif;
-    padding: 0.8em;
-    font-size: 0.7em;
+    padding: 1em;
+    font-size: 0.8em;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 1px 1px;
     border-radius: 100px;
     border-color: transparent;
 }
