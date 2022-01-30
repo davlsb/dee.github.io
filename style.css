@@ -329,7 +329,6 @@ margin-top: 10em;
   color: #ffffff;
   transition: all ease-in-out 300ms;
   box-shadow:2px 2px 20px rgba(145, 92, 182, 0.76);
-  box-shadow:2px 2px 20px rgba(255, 255, 255, 0.473);
 }
 
 
@@ -588,18 +587,18 @@ footer {
 }
 
 .tab.active.pink{
-  background: rgba(183, 55, 151, 0.2);
-  color: rgb(236, 33, 175)
-}
-
-.tab.active.yellow{
-  background: rgba(243, 232, 74, 0.2);
-  color: rgb(224, 214, 71)
+  background: rgba(178, 74, 242, 0.2);
+  color: #b24bf3
 }
 
 .tab.active.green{
-  background: rgba(55, 183, 108, 0.2);
-  color: rgb(55, 183, 72)
+  background: rgba(215, 161, 249, 0.2);
+  color: #D7A1F9;
+}
+
+.tab.active.yellow{
+  background: rgba(197, 118, 246, 0.2);
+  color: #C576F6;
 }
 
 .tab-container{ 
