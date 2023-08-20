@@ -453,6 +453,30 @@ margin-top: 10em;
   box-shadow:2px 2px 20px rgba(145, 92, 182, 0.76);
 }
 
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    margin: 0 5px; /* Adjust the margin as needed */
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #007bff; /* Example background color */
+    color: white; /* Example text color */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Example hover background color */
+}
 
 .wave-container {
   width: 100%;
