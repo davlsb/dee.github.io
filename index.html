@@ -329,9 +329,8 @@
       <textarea name="entry.1960167367" id="entry.1960167367" cols="40" rows="5" placeholder="Message"></textarea>
     </div>
     <div class="material-textfield">
-      <label for="math-answer">M</label>
-      <span id="math-question"> </span>
-      <input type="number" name="math-answer" id="math-answer" required>
+     <label for="math-answer" id="math-question"> </label>
+      <input  placeholder=" " type="number" name="math-answer" id="math-answer" required>
     </div>
     <button id="submitBtn" type="submit" class="btn">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close and Reset</button>
@@ -402,7 +401,9 @@ function validateForm() {
   const correctAnswer = parseInt(document.getElementById("math-answer").dataset.correctAnswer);
 
   if (userAnswer === correctAnswer) {
-    return true; // Allow form submission
+    alert("Math answer is correct. Form submitted!");
+    closeForm(); // Close the popup and reset content
+    return false; // Prevent form submission
   } else {
     alert("Incorrect math answer. Please try again.");
     generateMathQuestion(); // Generate a new math question
@@ -410,10 +411,20 @@ function validateForm() {
   }
 }
 
+function closeForm() {
+  document.getElementById("myForm").style.display = "none"; // Hide the popup
+  document.getElementById("entry.1803483636").value = ""; // Clear Full Name input
+  document.getElementById("entry.567895808").value = ""; // Clear Email input
+  document.getElementById("entry.1960167367").value = ""; // Clear Message input
+  generateMathQuestion(); // Generate a new math question
+}
+
 document.addEventListener("DOMContentLoaded", function() {
   generateMathQuestion(); // Generate initial math question
 });
 </script>
+
+
 
 
 
