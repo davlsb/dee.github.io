@@ -313,9 +313,9 @@
     <p> </p>
   </div>
 	   
-  <!--
+  
 <div class="form-popup" id="myForm" method="post">
-  <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdBGRXL0tL03-7G_aI6a2nP9XluU3cVadxqiudVgquJgG12rg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;" class="form-container">
+  <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdBGRXL0tL03-7G_aI6a2nP9XluU3cVadxqiudVgquJgG12rg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;" class="form-container" onload="generateMathQuestion()">
     <h1>Contact Form</h1>
 	  
 
@@ -334,6 +334,12 @@
       <textarea name="entry.1960167367" id="entry.1960167367" cols="40" rows="5" placeholder="Message"></textarea>
 	</div>
 
+	<div class="material-textfield">
+	  <label for="math-question">Math Question:</label>
+	  <span id="math-question">What is 6 + 3?</span>
+	  <input type="number" name="math-answer" id="math-answer" required>
+	</div>
+
     <button id="submitBtn" type="submit" class="btn" onclick="sendForm()">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close and Reset</button>
   </form>
@@ -341,7 +347,7 @@
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 	
 		</div>
-    -->
+
 	   
     <br>
 </main>
@@ -387,6 +393,33 @@ import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 const el = document.createElement('pwa-update');
 document.body.appendChild(el);
     </script>
+
+	<script>
+function generateMathQuestion() {
+  const firstNumber = Math.floor(Math.random() * 10);
+  const secondNumber = Math.floor(Math.random() * 10);
+  const answer = firstNumber + secondNumber;
+  
+  document.getElementById("math-question").textContent = `What is ${firstNumber} + ${secondNumber}?`;
+  document.getElementById("math-answer").value = ""; // Clear any previous answer
+  document.getElementById("math-answer").dataset.correctAnswer = answer;
+}
+
+function sendForm() {
+  const userAnswer = parseInt(document.getElementById("math-answer").value);
+  const correctAnswer = parseInt(document.getElementById("math-answer").dataset.correctAnswer);
+
+  if (userAnswer === correctAnswer) {
+    // Proceed with submitting the form
+    document.getElementById("gform").submit();
+  } else {
+    alert("Incorrect math answer. Please try again.");
+  }
+}
+
+// Call generateMathQuestion when the form is loaded
+generateMathQuestion();
+</script>
 
 
   <script>
