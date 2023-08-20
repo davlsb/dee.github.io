@@ -388,19 +388,6 @@ document.body.appendChild(el);
 
 
 <script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block"; // Show the popup
-  generateMathQuestion(); // Generate a new math question
-  resetFormFields(); // Reset form fields
-}
-
-function resetFormFields() {
-  document.getElementById("entry.1803483636").value = ""; // Clear Full Name input
-  document.getElementById("entry.567895808").value = ""; // Clear Email input
-  document.getElementById("entry.1960167367").value = ""; // Clear Message input
-  document.getElementById("math-answer").value = ""; // Clear Math answer input
-}
-	
 function generateMathQuestion() {
   const firstNumber = Math.floor(Math.random() * 10);
   const secondNumber = Math.floor(Math.random() * 10);
@@ -410,15 +397,13 @@ function generateMathQuestion() {
   document.getElementById("math-answer").value = ""; // Clear any previous answer
   document.getElementById("math-answer").dataset.correctAnswer = answer;
 }
-
 function validateForm() {
   const userAnswer = parseInt(document.getElementById("math-answer").value);
   const correctAnswer = parseInt(document.getElementById("math-answer").dataset.correctAnswer);
 
   if (userAnswer === correctAnswer) {
     alert("Math answer is correct. Form submitted!");
-    closeForm(); // Close the popup
-    return true; // Allow form submission
+    return true;
   } else {
     alert("Incorrect math answer. Please try again.");
     generateMathQuestion(); // Generate a new math question
@@ -428,6 +413,9 @@ function validateForm() {
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none"; // Hide the popup
+  document.getElementById("entry.1803483636").value = ""; // Clear Full Name input
+  document.getElementById("entry.567895808").value = ""; // Clear Email input
+  document.getElementById("entry.1960167367").value = ""; // Clear Message input
   generateMathQuestion(); // Generate a new math question
 }
 
@@ -435,6 +423,7 @@ document.addEventListener("DOMContentLoaded", function() {
   generateMathQuestion(); // Generate initial math question
 });
 </script>
+
 
 
 
