@@ -192,9 +192,12 @@ margin-top: 10em;
 
 
 #QCtype {
-  display: inline-flex;
   font-size: 0.9em;
   font-weight: 500;
+}
+
+#QCtype i {
+  font-size: 0.8em;
 }
 
 .cardEx > div {
