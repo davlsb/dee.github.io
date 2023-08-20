@@ -405,7 +405,7 @@ function validateForm() {
   if (userAnswer === correctAnswer) {
     alert("Math answer is correct. Form submitted!");
     closeForm(); // Close the popup and reset content
-    return false; // Prevent form submission
+    return true; // Allow form submission
   } else {
     alert("Incorrect math answer. Please try again.");
     generateMathQuestion(); // Generate a new math question
