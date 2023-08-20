@@ -395,6 +395,26 @@ document.body.appendChild(el);
     </script>
 
 	<script>
+document.addEventListener("DOMContentLoaded", function() {
+  generateMathQuestion(); // Generate initial math question
+
+  // Attach event listener to the form submission
+  document.getElementById("gform").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the form from submitting automatically
+
+    const userAnswer = parseInt(document.getElementById("math-answer").value);
+    const correctAnswer = parseInt(document.getElementById("math-answer").dataset.correctAnswer);
+
+    if (userAnswer === correctAnswer) {
+      // Proceed with submitting the form
+      document.getElementById("gform").submit();
+    } else {
+      alert("Incorrect math answer. Please try again.");
+      generateMathQuestion(); // Generate a new math question
+    }
+  });
+});
+
 function generateMathQuestion() {
   const firstNumber = Math.floor(Math.random() * 10);
   const secondNumber = Math.floor(Math.random() * 10);
@@ -404,21 +424,6 @@ function generateMathQuestion() {
   document.getElementById("math-answer").value = ""; // Clear any previous answer
   document.getElementById("math-answer").dataset.correctAnswer = answer;
 }
-
-function sendForm() {
-  const userAnswer = parseInt(document.getElementById("math-answer").value);
-  const correctAnswer = parseInt(document.getElementById("math-answer").dataset.correctAnswer);
-
-  if (userAnswer === correctAnswer) {
-    // Proceed with submitting the form
-    document.getElementById("gform").submit();
-  } else {
-    alert("Incorrect math answer. Please try again.");
-  }
-}
-
-// Call generateMathQuestion when the form is loaded
-generateMathQuestion();
 </script>
 
 
