@@ -318,6 +318,8 @@
 <div class="form-popup" id="myForm">
   <form name="gform" id="gform" action="https://docs.google.com/forms/d/e/1FAIpQLSdBGRXL0tL03-7G_aI6a2nP9XluU3cVadxqiudVgquJgG12rg/formResponse?" target="hidden_iframe" onsubmit="return validateForm();" class="form-container">
     <h1>Contact Form</h1>
+
+	<div class="form-inputs">
     <div class="material-textfield">
       <input placeholder=" " type="text" name="entry.1803483636" id="entry.1803483636" required>
       <label for="name">Full Name</label>
@@ -333,6 +335,7 @@
       <input placeholder=" " type="number" name="math-answer" id="math-answer" required>
       <label for="math-answer" id="math-question"> </label>
     </div>
+	</div>
     <button id="submitBtn" type="submit" class="btn">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close and Reset</button>
   </form>
