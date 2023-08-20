@@ -314,39 +314,31 @@
   </div>
 	   
   
-<div class="form-popup" id="myForm" method="post">
-  <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdBGRXL0tL03-7G_aI6a2nP9XluU3cVadxqiudVgquJgG12rg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;" class="form-container" onload="generateMathQuestion()">
+<div class="form-popup" id="myForm">
+  <form name="gform" id="gform" action="https://docs.google.com/forms/d/e/1FAIpQLSdBGRXL0tL03-7G_aI6a2nP9XluU3cVadxqiudVgquJgG12rg/formResponse?" target="hidden_iframe" onsubmit="return validateForm();" class="form-container">
     <h1>Contact Form</h1>
-	  
-
-		  
     <div class="material-textfield">
       <input placeholder=" " type="text" name="entry.1803483636" id="entry.1803483636" required>
       <label for="name">Full Name</label>
-	</div>
-		  
+    </div>
     <div class="material-textfield">
       <input placeholder=" " type="email" name="entry.567895808" id="entry.567895808" required>
       <label for="email">Email</label>
- 	</div>
-
+    </div>
     <div class="material-textfield-message">
       <textarea name="entry.1960167367" id="entry.1960167367" cols="40" rows="5" placeholder="Message"></textarea>
-	</div>
-
-	<div class="material-textfield">
-	  <label for="math-question">Math Question:</label>
-	  <span id="math-question">What is 6 + 3?</span>
-	  <input type="number" name="math-answer" id="math-answer" required>
-	</div>
-
-    <button id="submitBtn" type="submit" class="btn" onclick="sendForm()">Send</button>
+    </div>
+    <div class="material-textfield">
+      <label for="math-answer">M</label>
+      <span id="math-question"> </span>
+      <input type="number" name="math-answer" id="math-answer" required>
+    </div>
+    <button id="submitBtn" type="submit" class="btn">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close and Reset</button>
   </form>
-	
-	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-	
-		</div>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+</div>
+
 
 	   
     <br>
@@ -395,26 +387,6 @@ document.body.appendChild(el);
     </script>
 
 	<script>
-document.addEventListener("DOMContentLoaded", function() {
-  generateMathQuestion(); // Generate initial math question
-
-  // Attach event listener to the form submission
-  document.getElementById("gform").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent the form from submitting automatically
-
-    const userAnswer = parseInt(document.getElementById("math-answer").value);
-    const correctAnswer = parseInt(document.getElementById("math-answer").dataset.correctAnswer);
-
-    if (userAnswer === correctAnswer) {
-      // Proceed with submitting the form
-      document.getElementById("gform").submit();
-    } else {
-      alert("Incorrect math answer. Please try again.");
-      generateMathQuestion(); // Generate a new math question
-    }
-  });
-});
-
 function generateMathQuestion() {
   const firstNumber = Math.floor(Math.random() * 10);
   const secondNumber = Math.floor(Math.random() * 10);
@@ -424,7 +396,25 @@ function generateMathQuestion() {
   document.getElementById("math-answer").value = ""; // Clear any previous answer
   document.getElementById("math-answer").dataset.correctAnswer = answer;
 }
+
+function validateForm() {
+  const userAnswer = parseInt(document.getElementById("math-answer").value);
+  const correctAnswer = parseInt(document.getElementById("math-answer").dataset.correctAnswer);
+
+  if (userAnswer === correctAnswer) {
+    return true; // Allow form submission
+  } else {
+    alert("Incorrect math answer. Please try again.");
+    generateMathQuestion(); // Generate a new math question
+    return false; // Prevent form submission
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  generateMathQuestion(); // Generate initial math question
+});
 </script>
+
 
 
   <script>
