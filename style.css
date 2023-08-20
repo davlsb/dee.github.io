@@ -455,8 +455,8 @@ margin-top: 10em;
 
 .button-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
 .custom-button {
