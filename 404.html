@@ -8,10 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Chango&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
         body{
-            background-image: linear-gradient(#8c00ff, #8c00ff, #8c00ffd7, #8c00ffd7, #7f01e6bd, #8c00ffb7, #8c00ff00);
+            background-image: linear-gradient(#8c00ff, #8c00ff, #8c00ffd7, #8c00ffd7, #7f01e6bd, #8c00ffb7);
             background-size: cover;
             font-family: 'Roboto', 'sans-serif';
-            font-weight: 900;
+            font-weight: bold;
+            color: white;
         }
         main{
             display: flex;
@@ -26,16 +27,26 @@
         .content404{
             text-align: center;
         }
+        a {
+            color: white;
+            font-style: normal;
+            text-decoration: none;
+            background-color: #00000000;
+        }
+        a:hover {
+        transition: all 0.2s ease-in-out;
+        text-shadow: 0px 0px 10px rgb(255 255 255);
+    }   
     </style>
 </head>
 <body>
     <main>
-        <h4 class="header404">404</h4>
+        <h4 class="header404">Uh-oh!</h4>
         <div class="content-404">
-            Uh-oh! We couldn't find the page you are looking for.
+            You hit a 404 error,  we couldn't find the page you are looking for
         </div>
         <p>
-            <a href="https://https://deedev.dev/">Go back home</a>
+            <a href="https://deedev.dev/">Go back home</a>
         </p>
     </main>
     
